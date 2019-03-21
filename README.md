@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## We are 冰多多！
+
+### 语音coding助手
 
 You can use the [editor on GitHub](https://github.com/bingduoduo1/public_doc/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
