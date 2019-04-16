@@ -1,8 +1,6 @@
-# 文本编辑器命令
+# 语音命令集说明文档
 
-- TBD
-
-# python 关键字
+## python 关键字
 
 - import
 - from
@@ -18,7 +16,7 @@
 - in
 - is
 
-# shell命令
+## shell命令
 
 - ls
 - cd
@@ -28,3 +26,9 @@
 - python3
 - bash
 - chmod
+
+## 文本编辑器命令
+
+- 复制(n行)
+- 剪切(n行)
+- 粘贴
