@@ -3,7 +3,7 @@ Version: 0.7-1
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1500
-Filename: dist/stable/main/binary-aarch64/apksigner_0.7-1_all.deb
+Filename: dists/stable/main/binary-aarch64/apksigner_0.7-1_all.deb
 Size: 1469004
 MD5sum: 836c131667d4b6857cdf5446646370d7
 SHA1: f771266cc3aea5f2228e9173192d015cded6231d
@@ -22,7 +22,7 @@ Recommends: game-repo, science-repo
 Suggests: unstable-repo
 Conflicts: apt-transport-https
 Replaces: apt-transport-https
-Filename: dist/stable/main/binary-aarch64/apt_1.4.9-4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/apt_1.4.9-4_aarch64.deb
 Size: 650670
 MD5sum: 92c3b291824e200f539a42870517cd6d
 SHA1: 9803bb45263e7048950e0124eaf9f3b6921bab46
@@ -36,7 +36,7 @@ Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 36
 Depends: apt, tor
-Filename: dist/stable/main/binary-aarch64/apt-transport-tor_1.4.9-4_all.deb
+Filename: dists/stable/main/binary-aarch64/apt-transport-tor_1.4.9-4_all.deb
 Size: 836
 MD5sum: 4c65ed3a4801ef4a4a0e1627bea45ac3
 SHA1: eaea3ae644d3b5857bf4a3efc010f5430fe142c1
@@ -49,7 +49,7 @@ Version: 2.4.48
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 140
-Filename: dist/stable/main/binary-aarch64/attr_2.4.48_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/attr_2.4.48_aarch64.deb
 Size: 20924
 MD5sum: f8a173ac7aef5ab9c6e480a81aea82b8
 SHA1: 2cf4cb5bac5d7234a8ea5076993382cc58182d71
@@ -63,7 +63,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 92
 Depends: attr
-Filename: dist/stable/main/binary-aarch64/attr-dev_2.4.48_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/attr-dev_2.4.48_aarch64.deb
 Size: 15556
 MD5sum: a308fee0ed14bbc9df34a6a0303b32e7
 SHA1: 5abdc90390c5a4a644ff90947a6cab00fc4d51d9
@@ -78,7 +78,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1216
 Depends: ncurses, readline (>= 8.0), libandroid-support, termux-tools, command-not-found
-Filename: dist/stable/main/binary-aarch64/bash_5.0.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/bash_5.0.3_aarch64.deb
 Size: 379682
 MD5sum: 8970c3aef0275702472867df8e744727
 SHA1: 66f2dbd0c66dde29f4819df1335a338a47a7f0ce
@@ -92,7 +92,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 448
 Depends: bash
-Filename: dist/stable/main/binary-aarch64/bash-dev_5.0.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/bash-dev_5.0.3_aarch64.deb
 Size: 57532
 MD5sum: d7c70991448ec3dc1af88a958ac4d851
 SHA1: 727732083db888ab3bf8250102f65f8648aaff42
@@ -107,7 +107,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 612
 Conflicts: coreutils (<< 8.25-4)
-Filename: dist/stable/main/binary-aarch64/busybox_1.30.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/busybox_1.30.1-1_aarch64.deb
 Size: 277560
 MD5sum: 4d3e517f12629e6f7622bea81713d946
 SHA1: 4e35571c60fdd269975431d26c402172638e82b3
@@ -121,7 +121,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 128
 Depends: libbz2
-Filename: dist/stable/main/binary-aarch64/bzip2_1.0.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/bzip2_1.0.6-2_aarch64.deb
 Size: 25094
 MD5sum: ef7f1064d0a742d222528884827b18fd
 SHA1: 6f5bbabe2bc9fa45e70dd5defca18fe009daac6d
@@ -134,7 +134,7 @@ Version: 20190124
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 248
-Filename: dist/stable/main/binary-aarch64/ca-certificates_20190124_all.deb
+Filename: dists/stable/main/binary-aarch64/ca-certificates_20190124_all.deb
 Size: 119714
 MD5sum: 669ad8337feb85d5ca8e368658444d4f
 SHA1: ccc4b5d860529a38140b72b8072f8679827a05f0
@@ -147,7 +147,7 @@ Version: 20190124
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 208
-Filename: dist/stable/main/binary-aarch64/ca-certificates-java_20190124_all.deb
+Filename: dists/stable/main/binary-aarch64/ca-certificates-java_20190124_all.deb
 Size: 108696
 MD5sum: f93db866bd2ef1c9aaf5ae5a5ba72fa8
 SHA1: 71a9c585efd20bea2f0a60037ba274cbce4faefe
@@ -160,7 +160,7 @@ Version: 1.37
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 184
-Filename: dist/stable/main/binary-aarch64/command-not-found_1.37_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/command-not-found_1.37_aarch64.deb
 Size: 24744
 MD5sum: 6cf048175fcf075bba73ee111f4befaf
 SHA1: a47cabfd6cccf96da1a494ca27ab65f664d5bd62
@@ -174,7 +174,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 236
 Depends: libcurl
-Filename: dist/stable/main/binary-aarch64/curl_7.64.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/curl_7.64.1-1_aarch64.deb
 Size: 87944
 MD5sum: 4c87aaf5e94adad2498c6012838f2d1f
 SHA1: d6b2bc7c752313949f9470eb01e600377b9727a1
@@ -188,7 +188,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 164
-Filename: dist/stable/main/binary-aarch64/dash_0.5.10.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dash_0.5.10.2-1_aarch64.deb
 Size: 60664
 MD5sum: 9c9734f5da2f4b064603b232964a5c71
 SHA1: 0a6561ee575480a170048bcacc351b06b91d7b6b
@@ -201,7 +201,7 @@ Version: 3.7
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 312
-Filename: dist/stable/main/binary-aarch64/diffutils_3.7_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/diffutils_3.7_aarch64.deb
 Size: 92086
 MD5sum: efb5e79e16aebfdeb3ee1e9066ca1233
 SHA1: 9df3696a8e9a52644736a1a007d38da274580960
@@ -215,7 +215,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 516
 Depends: gnupg (>= 2.2.9-1), libgnutls, resolv-conf
-Filename: dist/stable/main/binary-aarch64/dirmngr_2.2.15-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dirmngr_2.2.15-1_aarch64.deb
 Size: 168784
 MD5sum: 95aed7ba512e9b8a0f3cf623d86ec434
 SHA1: 7934eee7c9163512f825a9d2e5deb6aecfd00e6c
@@ -230,7 +230,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 832
 Depends: busybox, liblzma, zlib
-Filename: dist/stable/main/binary-aarch64/dpkg_1.19.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dpkg_1.19.4-1_aarch64.deb
 Size: 187896
 MD5sum: 2fcc15170f9438208289cedaf654d30b
 SHA1: 23ba16e4f93a0b3d99c827f007923728338deb9e
@@ -244,7 +244,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 264
 Depends: dpkg
-Filename: dist/stable/main/binary-aarch64/dpkg-dev_1.19.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dpkg-dev_1.19.4-1_aarch64.deb
 Size: 20914
 MD5sum: 502fc03a9732661c51ff85847d65041e
 SHA1: ba2736e9881e8ba845faed427ee9c353c5567293
@@ -258,7 +258,7 @@ Architecture: all
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 40
 Depends: termux-keyring
-Filename: dist/stable/main/binary-aarch64/game-repo_1.1_all.deb
+Filename: dists/stable/main/binary-aarch64/game-repo_1.1_all.deb
 Size: 966
 MD5sum: 15af32cb75c7897357a3093f59a95c05
 SHA1: 7bb01a6f1cf9a7592be61426b5d6fe42f304ef35
@@ -272,7 +272,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 16532
 Depends: libcurl, less, openssl, pcre2, zlib
-Filename: dist/stable/main/binary-aarch64/git_2.21.0-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/git_2.21.0-2_aarch64.deb
 Size: 2940350
 MD5sum: 2cfb659c9fcbfb8f04382854feecc542
 SHA1: 6f977ac4f562944f1dd47951debf64c084658bd6
@@ -288,7 +288,7 @@ Installed-Size: 3080
 Depends: libassuan,libbz2,libgcrypt,libksba,libsqlite,libnpth,readline,pinentry,libgpg-error,zlib
 Conflicts: gnupg2 (<< 2.2.9-1)
 Replaces: gnupg2 (<< 2.2.9-1)
-Filename: dist/stable/main/binary-aarch64/gnupg_2.2.15-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gnupg_2.2.15-1_aarch64.deb
 Size: 820828
 MD5sum: df0af575476be086b748190265a0c2b5
 SHA1: 11380b725abbf685fcb4b1820a2730339fdfa722
@@ -302,7 +302,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1188
 Depends: libgnutls
-Filename: dist/stable/main/binary-aarch64/gnutls_3.6.7_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gnutls_3.6.7_aarch64.deb
 Size: 232418
 MD5sum: 48f24e63ad45f99ddca4e06dcf1fa759
 SHA1: 88cec52f3af9633ac0ffd07e61b59204799d1d5c
@@ -317,7 +317,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 364
 Depends: libbz2, libgcrypt, libgpg-error
 Conflicts: gnupg (<= 1.4.21)
-Filename: dist/stable/main/binary-aarch64/gpgv_2.2.15-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gpgv_2.2.15-1_aarch64.deb
 Size: 137118
 MD5sum: c3bd8fca5d6726f38e3445208e608e8f
 SHA1: 4fa7a5fd6749bfd8ddae91981dd3c517d546a8fa
@@ -331,7 +331,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 240
 Depends: ncurses
-Filename: dist/stable/main/binary-aarch64/less_530-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/less_530-2_aarch64.deb
 Size: 80162
 MD5sum: cad4fb24f17f033640f0a080f7f2e0d0
 SHA1: 92ec641d1c56d8fed3a9c755e20e225cd7303ef6
@@ -345,7 +345,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 180
-Filename: dist/stable/main/binary-aarch64/libandroid-support_24_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-support_24_aarch64.deb
 Size: 105254
 MD5sum: d4414ed1396ee52b1d648051aa230d22
 SHA1: f866d37e25f5d379e662d52cb9fb0b1939691ded
@@ -359,7 +359,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 88
 Depends: libgpg-error
-Filename: dist/stable/main/binary-aarch64/libassuan_2.5.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libassuan_2.5.3_aarch64.deb
 Size: 21930
 MD5sum: 6720d8959e532bf6c45f2142c3f108f7
 SHA1: 7088d0f17285a9a37ffb88a086294d5543a6b35e
@@ -373,7 +373,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 92
 Depends: libassuan
-Filename: dist/stable/main/binary-aarch64/libassuan-dev_2.5.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libassuan-dev_2.5.3_aarch64.deb
 Size: 9144
 MD5sum: c1aac6053129954001dc972d7fd162ac
 SHA1: 263992454d009061019cecb6369738683afc8b41
@@ -386,7 +386,7 @@ Version: 1.0.6-2
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 88
-Filename: dist/stable/main/binary-aarch64/libbz2_1.0.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libbz2_1.0.6-2_aarch64.deb
 Size: 23666
 MD5sum: eae7ded4b7c555ff366acccc8a204a01
 SHA1: 471424ab3194fc37b52ebfcfb7ba3feabcdd66fa
@@ -400,7 +400,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 36
 Depends: libbz2
-Filename: dist/stable/main/binary-aarch64/libbz2-dev_1.0.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libbz2-dev_1.0.6-2_aarch64.deb
 Size: 2402
 MD5sum: 13190a4767b762e0b5ee9a56a6465c76
 SHA1: cda83844917380d788b3b486794b85abd04dfa37
@@ -414,7 +414,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 984
-Filename: dist/stable/main/binary-aarch64/libc++_19b_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libc++_19b_aarch64.deb
 Size: 195106
 MD5sum: d58aeef0e89a8e4dc33def44616c2fcd
 SHA1: 81b7e9d71b7b0eed1456892e09d535ef84cc8f7d
@@ -428,7 +428,7 @@ Architecture: aarch64
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
 Installed-Size: 148
 Depends: attr
-Filename: dist/stable/main/binary-aarch64/libcap_2.26-4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcap_2.26-4_aarch64.deb
 Size: 19214
 MD5sum: ed2a754ae63c6f551c8f1d5d094d0277
 SHA1: 19c72a723520e4935a7d949163de12ca2ca04a89
@@ -442,7 +442,7 @@ Architecture: aarch64
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
 Installed-Size: 168
 Depends: libcap
-Filename: dist/stable/main/binary-aarch64/libcap-dev_2.26-4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcap-dev_2.26-4_aarch64.deb
 Size: 14350
 MD5sum: 92dad474cd323ec60d1ebc3b9f4d8318
 SHA1: 67c19fedf00f3e7aa8cb1e6a9cec709775c6e994
@@ -457,7 +457,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 444
 Depends: openssl (>= 1.1.1), libnghttp2, zlib
 Conflicts: apt (<< 1.4.8-8)
-Filename: dist/stable/main/binary-aarch64/libcurl_7.64.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcurl_7.64.1-1_aarch64.deb
 Size: 155594
 MD5sum: 6fb65e515ab846e69b05dcee49fafeaf
 SHA1: b8df4ff321556422cbc0c46e62a89996198aeeb1
@@ -471,7 +471,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 2072
 Depends: libcurl
-Filename: dist/stable/main/binary-aarch64/libcurl-dev_7.64.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcurl-dev_7.64.1-1_aarch64.deb
 Size: 642174
 MD5sum: 062544498b3feddbb92ed639b76d32e2
 SHA1: d49911abb7aacb8933dce0194232f07b7643591f
@@ -484,7 +484,7 @@ Version: 2.1.8-1
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 244
-Filename: dist/stable/main/binary-aarch64/libevent_2.1.8-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libevent_2.1.8-1_aarch64.deb
 Size: 74338
 MD5sum: caa82c2640ad95ca82e28f794b4e09e7
 SHA1: 802df1d4d5e73e998d979ead8dacbc5e51e6dfa9
@@ -498,7 +498,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 488
 Depends: libevent
-Filename: dist/stable/main/binary-aarch64/libevent-dev_2.1.8-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libevent-dev_2.1.8-1_aarch64.deb
 Size: 70568
 MD5sum: e390d19b99805df77de1a0d2956f3a13
 SHA1: ff39412e837e7a772976fa00edcd72a59a88b45c
@@ -512,7 +512,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 736
 Depends: libgpg-error
-Filename: dist/stable/main/binary-aarch64/libgcrypt_1.8.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgcrypt_1.8.4_aarch64.deb
 Size: 274954
 MD5sum: f0f417501fc4bec783af893279cdbae8
 SHA1: b28d32f303981f18627806352e8b04db9c086bce
@@ -526,7 +526,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 116
 Depends: libgcrypt,libgpg-error-dev
-Filename: dist/stable/main/binary-aarch64/libgcrypt-dev_1.8.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgcrypt-dev_1.8.4_aarch64.deb
 Size: 18260
 MD5sum: e178cee77699bd6280ee5e3966cea30b
 SHA1: 8a5824d6685b9e7d7f09c4022e69e0c29ac0f013
@@ -539,7 +539,7 @@ Version: 6.1.2-1
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 368
-Filename: dist/stable/main/binary-aarch64/libgmp_6.1.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgmp_6.1.2-1_aarch64.deb
 Size: 153270
 MD5sum: 7fbeefb7b78dbe23a68632e3f6c064e5
 SHA1: bf039b494b9b990906780df52cc90afd36dfe6b0
@@ -553,7 +553,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 112
 Depends: libgmp
-Filename: dist/stable/main/binary-aarch64/libgmp-dev_6.1.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgmp-dev_6.1.2-1_aarch64.deb
 Size: 15652
 MD5sum: 405401e6cb9761842b7d71f8192f203e
 SHA1: 46d2c29ca28e76223535af0b87ae193e1b831bc2
@@ -567,7 +567,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1248
 Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
-Filename: dist/stable/main/binary-aarch64/libgnutls_3.6.7_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgnutls_3.6.7_aarch64.deb
 Size: 440398
 MD5sum: 1bd13c3b5f3f1716232fb86d8badceec
 SHA1: 742899b050b5e9d78065d0e31a31f2111e50c5fb
@@ -581,7 +581,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 4996
 Depends: libgnutls,libidn2-dev, libnettle-dev
-Filename: dist/stable/main/binary-aarch64/libgnutls-dev_3.6.7_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgnutls-dev_3.6.7_aarch64.deb
 Size: 975798
 MD5sum: 9d7921c8416dcb101aa57ad5e010e18c
 SHA1: 258f06634505c761cd81588ed2e802ffcdeeb569
@@ -594,7 +594,7 @@ Version: 1.36
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 264
-Filename: dist/stable/main/binary-aarch64/libgpg-error_1.36_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgpg-error_1.36_aarch64.deb
 Size: 63384
 MD5sum: 161d2b0d8943120b578ded9ae321631c
 SHA1: e631cd32ac9b948dbdfa4d133d70f3d22118748d
@@ -608,7 +608,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 196
 Depends: libgpg-error
-Filename: dist/stable/main/binary-aarch64/libgpg-error-dev_1.36_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgpg-error-dev_1.36_aarch64.deb
 Size: 17482
 MD5sum: 53f5e650c88b23fc06f51ebf6c9cb55a
 SHA1: b745b6dc7103671ed361585e30a1d2e0e778c30c
@@ -622,7 +622,7 @@ Architecture: aarch64
 Maintainer: lokesh @hax4us
 Installed-Size: 220
 Depends: libunistring, libandroid-support
-Filename: dist/stable/main/binary-aarch64/libidn2_2.1.1a_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libidn2_2.1.1a_aarch64.deb
 Size: 51764
 MD5sum: 8613c0b45757712ef08e9400c81b17da
 SHA1: 68ed6a53dc69b78f3db1bf6578e2f1db3159bcf9
@@ -636,7 +636,7 @@ Architecture: aarch64
 Maintainer: lokesh @hax4us
 Installed-Size: 144
 Depends: libidn2
-Filename: dist/stable/main/binary-aarch64/libidn2-dev_2.1.1a_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libidn2-dev_2.1.1a_aarch64.deb
 Size: 20840
 MD5sum: aab50e893a87c4c46c98efd5aae3e4ee
 SHA1: 61da8679f19936031d37a5770644375986be0540
@@ -650,7 +650,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 196
 Depends: libgpg-error
-Filename: dist/stable/main/binary-aarch64/libksba_1.3.5-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libksba_1.3.5-1_aarch64.deb
 Size: 61430
 MD5sum: 7ef560318926fa66cd0a9ca535c28792
 SHA1: f0d7fb34251f3ee9611a4af59a4b70f5cff8a0b0
@@ -664,7 +664,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 76
 Depends: libksba
-Filename: dist/stable/main/binary-aarch64/libksba-dev_1.3.5-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libksba-dev_1.3.5-1_aarch64.deb
 Size: 7338
 MD5sum: aa47bee32ef132e9f9261d6b3f944968
 SHA1: c07603902619c484afc3b3362d1a641279bdee49
@@ -677,7 +677,7 @@ Version: 5.2.4
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 148
-Filename: dist/stable/main/binary-aarch64/liblzma_5.2.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/liblzma_5.2.4_aarch64.deb
 Size: 57204
 MD5sum: e311eb3f6af9dd0c7fbac7c2561c0f00
 SHA1: 3922b76bf66e4b65a938a700bdc2a10104a7b786
@@ -691,7 +691,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 244
 Depends: liblzma
-Filename: dist/stable/main/binary-aarch64/liblzma-dev_5.2.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/liblzma-dev_5.2.4_aarch64.deb
 Size: 35138
 MD5sum: 1ab39dfcae3da180d990e00b2ae2a5ef
 SHA1: ea0e87333cc32e8258e810ba8d0f222cf2c564aa
@@ -705,7 +705,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 428
 Depends: libgmp
-Filename: dist/stable/main/binary-aarch64/libnettle_3.4.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnettle_3.4.1_aarch64.deb
 Size: 205404
 MD5sum: 4fcd74f5e5cb2cc0212fd9e4659b9e3e
 SHA1: ea80b4aaf37c7dcf8a078e5d84cf8232c9d6d865
@@ -719,7 +719,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 408
 Depends: libnettle
-Filename: dist/stable/main/binary-aarch64/libnettle-dev_3.4.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnettle-dev_3.4.1_aarch64.deb
 Size: 35202
 MD5sum: fc7b9e336f1b3eb2e66c5063f5628c7a
 SHA1: d8a92a628738c4f676f8d46c2b7b3e4e3e7d8f7c
@@ -732,7 +732,7 @@ Version: 1.37.0
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 152
-Filename: dist/stable/main/binary-aarch64/libnghttp2_1.37.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnghttp2_1.37.0_aarch64.deb
 Size: 41920
 MD5sum: 685045a3bb23d2a32baa83a3683b55e1
 SHA1: cda75b8cd2c945778f11c32fe63e0e7ce7e5a281
@@ -746,7 +746,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 236
 Depends: libnghttp2
-Filename: dist/stable/main/binary-aarch64/libnghttp2-dev_1.37.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnghttp2-dev_1.37.0_aarch64.deb
 Size: 31684
 MD5sum: a1426b12ae10e6ece6ec2b7fbd15431f
 SHA1: 6f3f981712cf0a4dc469bed5ce77e4e0c579e54d
@@ -759,7 +759,7 @@ Version: 1.6
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 56
-Filename: dist/stable/main/binary-aarch64/libnpth_1.6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnpth_1.6_aarch64.deb
 Size: 5130
 MD5sum: 2363ce9352b65be515fae9f484be1587
 SHA1: a8f2e885c7762a2a2cf393470986f1bb9444c7ab
@@ -773,7 +773,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 56
 Depends: libnpth
-Filename: dist/stable/main/binary-aarch64/libnpth-dev_1.6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnpth-dev_1.6_aarch64.deb
 Size: 6634
 MD5sum: 999f3388c81c23325b898e0395eba3e2
 SHA1: 92ccdbaf8e42178b029483750a7c108dd0651450
@@ -787,7 +787,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 812
 Depends: zlib
-Filename: dist/stable/main/binary-aarch64/libsqlite_3.27.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libsqlite_3.27.2-1_aarch64.deb
 Size: 360878
 MD5sum: f0bb8a6f0674d2297545afce8f8117d8
 SHA1: 888a2eba73e7340742b552ca6c92ffcaef44cb83
@@ -801,7 +801,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 752
 Depends: libsqlite
-Filename: dist/stable/main/binary-aarch64/libsqlite-dev_3.27.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libsqlite-dev_3.27.2-1_aarch64.deb
 Size: 145670
 MD5sum: 0afa390af8a7368bbe13097fca941186
 SHA1: 57c4359c8f49af071930b5d38fe6d887e120016f
@@ -815,7 +815,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1584
 Depends: libandroid-support
-Filename: dist/stable/main/binary-aarch64/libunistring_0.9.10-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libunistring_0.9.10-1_aarch64.deb
 Size: 367694
 MD5sum: 1449469afc7444276f7a66939ee22f0a
 SHA1: b5e1d636ac429e898324034902860a2ddcd50e8e
@@ -829,7 +829,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 228
 Depends: libunistring
-Filename: dist/stable/main/binary-aarch64/libunistring-dev_0.9.10-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libunistring-dev_0.9.10-1_aarch64.deb
 Size: 22352
 MD5sum: 693b4b4a5eb7fb4bab05cd72577f9930
 SHA1: ebbe914dd2facb028bbfe7952c8435ff0acf80d1
@@ -842,7 +842,7 @@ Version: 6.1.20181117-1
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 520
-Filename: dist/stable/main/binary-aarch64/ncurses_6.1.20181117-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses_6.1.20181117-1_aarch64.deb
 Size: 110852
 MD5sum: fc3f7065c6ddfdb2705979a005d45679
 SHA1: e75dd0fd9cf4e33fcb8b1d6f36429a43b15db063
@@ -856,7 +856,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 916
 Depends: ncurses
-Filename: dist/stable/main/binary-aarch64/ncurses-dev_6.1.20181117-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses-dev_6.1.20181117-1_aarch64.deb
 Size: 340650
 MD5sum: 471e02767ae3c26ce7dfee10111bfd7d
 SHA1: eb7518e9bcaf2a0248c18a10582fe8349782bb3f
@@ -870,7 +870,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 132
 Depends: ncurses
-Filename: dist/stable/main/binary-aarch64/ncurses-ui-libs_6.1.20181117-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs_6.1.20181117-1_aarch64.deb
 Size: 27688
 MD5sum: 40da79c2cfd55cf9002f9a6b09b3b41d
 SHA1: 35fde83df5d27c3452a46d25ffa06760c0318946
@@ -884,7 +884,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 304
 Depends: ncurses
-Filename: dist/stable/main/binary-aarch64/ncurses-utils_6.1.20181117-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses-utils_6.1.20181117-1_aarch64.deb
 Size: 85606
 MD5sum: 72f68c2d25d7f54d5c1b530bb9fee2af
 SHA1: 6c607f41b17a45cfbc7e19e456073afe4b0c14c0
@@ -898,7 +898,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 132
 Depends: libnettle
-Filename: dist/stable/main/binary-aarch64/nettle_3.4.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/nettle_3.4.1_aarch64.deb
 Size: 16390
 MD5sum: 051a2ad53fbcef82954b9946406d9bb9
 SHA1: 8cc27878bbc81d671599d4b1bc13b908a0d6f037
@@ -915,7 +915,7 @@ Depends: ca-certificates
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1)
 Replaces: openssl-tool (<< 1.1.1b-1)
-Filename: dist/stable/main/binary-aarch64/openssl_1.1.1b-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/openssl_1.1.1b-2_aarch64.deb
 Size: 908460
 MD5sum: 0ebfc02ecb430e6cd1748957a06861ef
 SHA1: 3a5563b8ac1faf803ed3b4e651824c2b1912c776
@@ -929,7 +929,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1616
 Depends: openssl
-Filename: dist/stable/main/binary-aarch64/openssl-dev_1.1.1b-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/openssl-dev_1.1.1b-2_aarch64.deb
 Size: 194246
 MD5sum: 7072d00776d6fadc610a84e72821eecb
 SHA1: d9c8ab1ca8e20125aca25160096f2ddda5979884
@@ -943,7 +943,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 628
 Depends: openssl (>= 1.1.1b-1)
-Filename: dist/stable/main/binary-aarch64/openssl-tool_1.1.1b-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/openssl-tool_1.1.1b-2_aarch64.deb
 Size: 184466
 MD5sum: 8e1f9164753734d34b57f61ac11657b2
 SHA1: b3bb6b000d689515e3ca7cf15b1c10fb4231422d
@@ -956,7 +956,7 @@ Version: 10.33
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1124
-Filename: dist/stable/main/binary-aarch64/pcre2_10.33_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pcre2_10.33_aarch64.deb
 Size: 254370
 MD5sum: a2c59353afd0423bfb45b81cd9974259
 SHA1: 649844cc2d8ff6c143a9016490648af5d7314856
@@ -970,7 +970,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 612
 Depends: pcre2
-Filename: dist/stable/main/binary-aarch64/pcre2-dev_10.33_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pcre2-dev_10.33_aarch64.deb
 Size: 233062
 MD5sum: f4c60bde0f890949369868b6e9280784
 SHA1: 8ed7f8d6e58b5dce9edc1bbf28919539681fe2e1
@@ -984,7 +984,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 84
 Depends: libandroid-support, libassuan, ncurses
-Filename: dist/stable/main/binary-aarch64/pinentry_1.1.0-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pinentry_1.1.0-2_aarch64.deb
 Size: 20830
 MD5sum: f499c868df51a33f60d457654a7f4b2d
 SHA1: bd12ba05d144ae88f75816adb246e93f6f5749e8
@@ -999,7 +999,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 368
 Depends: libandroid-support, ncurses
 Breaks: bash (<< 5.0)
-Filename: dist/stable/main/binary-aarch64/readline_8.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/readline_8.0_aarch64.deb
 Size: 88332
 MD5sum: 0fcc30369d0539cef99c2afd9b93a79b
 SHA1: 9ce77b58f7314329bfd719ce29929e7ac1f274c6
@@ -1013,7 +1013,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 160
 Depends: readline
-Filename: dist/stable/main/binary-aarch64/readline-dev_8.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/readline-dev_8.0_aarch64.deb
 Size: 39720
 MD5sum: e8b2ca7ffc1bca1a07057de0f8c07725
 SHA1: 9e562d7dcd22a3fa812a550e07df712e633463dc
@@ -1026,7 +1026,7 @@ Version: 1.2
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 32
-Filename: dist/stable/main/binary-aarch64/resolv-conf_1.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/resolv-conf_1.2_aarch64.deb
 Size: 856
 MD5sum: ddd870e3f39dbe5eb781d097e8fa561e
 SHA1: 998249e9a533bc76ebed812b962c7c22058dc546
@@ -1040,7 +1040,7 @@ Architecture: all
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 40
 Depends: termux-keyring
-Filename: dist/stable/main/binary-aarch64/science-repo_1.0_all.deb
+Filename: dists/stable/main/binary-aarch64/science-repo_1.0_all.deb
 Size: 974
 MD5sum: d9efcebd17d852f7f760169d7af28eca
 SHA1: 9995bb4ae759eb1a14c32253b3faa1799d644d83
@@ -1054,7 +1054,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 960
 Depends: libsqlite, readline
-Filename: dist/stable/main/binary-aarch64/sqlite_3.27.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/sqlite_3.27.2-1_aarch64.deb
 Size: 423798
 MD5sum: f7bf3d847a6a83979305bf9712b37350
 SHA1: acab304b53e6cf94235da24f6d3ddfc8b824619d
@@ -1068,7 +1068,7 @@ Architecture: all
 Maintainer: Michal Bednarski @michalbednarski
 Installed-Size: 60
 Conflicts: termux-tools (<< 0.51)
-Filename: dist/stable/main/binary-aarch64/termux-am_0.2_all.deb
+Filename: dists/stable/main/binary-aarch64/termux-am_0.2_all.deb
 Size: 16882
 MD5sum: f25742963a110c56efc493c225d1664c
 SHA1: b1e8d5bdd6074fd546abb02a0adaf40e927ade16
@@ -1081,7 +1081,7 @@ Version: 0.4
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 40
-Filename: dist/stable/main/binary-aarch64/termux-exec_0.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/termux-exec_0.4_aarch64.deb
 Size: 2608
 MD5sum: 4ffeabf7c00eb752aa158eb2a76cb569
 SHA1: 95e1be457912ba1542b186c93c361ea28604f237
@@ -1094,7 +1094,7 @@ Version: 1.2
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 72
-Filename: dist/stable/main/binary-aarch64/termux-keyring_1.2_all.deb
+Filename: dists/stable/main/binary-aarch64/termux-keyring_1.2_all.deb
 Size: 31684
 MD5sum: 0dc105d242b4db7cc1a430f863c9b238
 SHA1: 91a76a123dc2f6b249ae3f47069e29c2228842d3
@@ -1110,7 +1110,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 124
 Depends: termux-am
 Conflicts: procps (<< 3.3.15-2)
-Filename: dist/stable/main/binary-aarch64/termux-tools_0.65_all.deb
+Filename: dists/stable/main/binary-aarch64/termux-tools_0.65_all.deb
 Size: 4388
 MD5sum: ad14d0f24c3edc3456e2a79d487612de
 SHA1: e490af7a9c777dbc9aa666f66209e6cf1d5f2556
@@ -1124,7 +1124,7 @@ Architecture: aarch64
 Maintainer: Vishal Biswas @vishalbiswas
 Installed-Size: 10656
 Depends: libevent, openssl, liblzma, zlib
-Filename: dist/stable/main/binary-aarch64/tor_0.3.5.8-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/tor_0.3.5.8-1_aarch64.deb
 Size: 1901650
 MD5sum: 4558c7afb5388fad4d319be469768dfb
 SHA1: 5c41277d9c037c8a956d1bbb99ec05bd868d1004
@@ -1138,7 +1138,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 288
 Depends: libandroid-support
-Filename: dist/stable/main/binary-aarch64/unrar_5.7.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/unrar_5.7.4-1_aarch64.deb
 Size: 102314
 MD5sum: d3e92194d37c33383780f7b00eea171c
 SHA1: b63a93de006d996aa6da891aa140c126a2b29093
@@ -1152,7 +1152,7 @@ Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 216
 Depends: liblzma
-Filename: dist/stable/main/binary-aarch64/xz-utils_5.2.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/xz-utils_5.2.4_aarch64.deb
 Size: 57104
 MD5sum: fff4ff69f34f1f80a96c170195acf969
 SHA1: 81bdbd8d801db6210d2bd6aea42a728bc5119991
@@ -1165,7 +1165,7 @@ Version: 1.2.11-3
 Architecture: aarch64
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 104
-Filename: dist/stable/main/binary-aarch64/zlib_1.2.11-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/zlib_1.2.11-3_aarch64.deb
 Size: 35774
 MD5sum: 49b3b41a9cebe6b67a341f5fd03d8f27
 SHA1: fa16f1827716a6dea47f1eeda638d1878f14c5f1
@@ -1181,7 +1181,7 @@ Installed-Size: 168
 Depends: zlib
 Breaks: ndk-sysroot (<< 19b-3)
 Replaces: ndk-sysroot (<< 19b-3)
-Filename: dist/stable/main/binary-aarch64/zlib-dev_1.2.11-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/zlib-dev_1.2.11-3_aarch64.deb
 Size: 29854
 MD5sum: 75aa8bb165f4f6c7a2f068a294d02c29
 SHA1: ecc8b850dcf2431ca661639cc9b64b0f4a4d44b2
