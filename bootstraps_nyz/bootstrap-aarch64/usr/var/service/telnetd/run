@@ -1,0 +1,2 @@
+#!/data/data/com.bingduoduo/files/usr/bin/sh
+exec telnetd -F
