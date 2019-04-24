@@ -1,0 +1,15 @@
+d30104300c9edafb305ca64100bb1c51  data/data/com.bingduoduo/files/usr/bin/dpkg-deb
+b24aba356bce0e70593798d0eac0480e  data/data/com.bingduoduo/files/usr/bin/dpkg-genbuildinfo
+26d2fe4adbc8d2aaa5f0daf94b44acb5  data/data/com.bingduoduo/files/usr/bin/dpkg-split
+c863f672de29942d5d5f6d847695758a  data/data/com.bingduoduo/files/usr/bin/dpkg-divert
+12e11bfe4332417387e5dee98e01d4b3  data/data/com.bingduoduo/files/usr/bin/dpkg-trigger
+f4172c6b65dca8a1fbe9d98fb3bc065e  data/data/com.bingduoduo/files/usr/bin/dpkg
+953d4b98ad71dfe47b1dcc2e16f3b265  data/data/com.bingduoduo/files/usr/bin/dpkg-query
+40c7f70d580142585b5eafdd234a52ee  data/data/com.bingduoduo/files/usr/share/man/man1/dpkg-genbuildinfo.1.gz
+9503055edc6e2ae8866b8c1f429b9bad  data/data/com.bingduoduo/files/usr/share/man/man1/dpkg.1.gz
+77ecde203e238a6b10323cbe7cc1f14d  data/data/com.bingduoduo/files/usr/share/man/man1/dpkg-query.1.gz
+d6036868c8fa1b9527040ace1b04f668  data/data/com.bingduoduo/files/usr/share/man/man1/dpkg-divert.1.gz
+4a12039fe6ba1d93d30398972f60754e  data/data/com.bingduoduo/files/usr/share/man/man1/dpkg-deb.1.gz
+d637712ec0b230533542bf8b5a8fe945  data/data/com.bingduoduo/files/usr/share/man/man1/dpkg-split.1.gz
+0c7ebc9d7693ea36d95a1bc89157771b  data/data/com.bingduoduo/files/usr/share/man/man1/dpkg-trigger.1.gz
+5a55c2503bd0b59e28a7c586d5f4b86b  data/data/com.bingduoduo/files/usr/share/man/man7/deb-version.7.gz
