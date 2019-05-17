@@ -1,33 +1,33 @@
 Package: apt
-Version: 1.4.9-4
+Version: 1.4.9-7
 Architecture: aarch64
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 2612
-Depends: libcurl, liblzma, dpkg, gpgv, libc++, termux-exec, zlib
+Depends: libcurl, libiconv, liblzma, dpkg, gpgv, libc++, termux-exec, zlib
 Recommends: game-repo, science-repo
 Suggests: unstable-repo
 Conflicts: apt-transport-https
 Replaces: apt-transport-https
-Filename: ./apt_1.4.9-4_aarch64.deb
-Size: 652870
-MD5sum: 57dbc155252ce04248888953301a01cb
-SHA1: dad12a0b1ec3ad16c4752bc0621e76f6070c24b3
-SHA256: 644ebb06cf66a3c008e048172d9b8e8d7eeb4970bc75dd532db76f5055d9ccfc
+Filename: ./apt_1.4.9-7_aarch64.deb
+Size: 653476
+MD5sum: c569144d25b962ef7688e38c0bc052c9
+SHA1: bb91bcc7df052ac6ad2d9d7b60871074bd2e9aa3
+SHA256: 6c97cb7505241558f84b8ee6e83b598ccf30d28f54dba4ab9ba66579c6326c73
 Homepage: https://packages.debian.org/apt
 Description: Front-end for the dpkg package manager
 
 Package: apt-transport-tor
-Version: 1.4.9-4
+Version: 1.4.9-7
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 36
-Depends: apt, tor
-Filename: ./apt-transport-tor_1.4.9-4_all.deb
-Size: 838
-MD5sum: 2151e19bba4be4405745c29c78ecbae8
-SHA1: 4d2fd4264b3a9eacaa65d9223046a397d8a6e0bf
-SHA256: ca1f69a39d668930fd119f082059ef74a86415afcb3b8a28cbd39e35165a2381
+Depends: apt (= 1.4.9-7), tor
+Filename: ./apt-transport-tor_1.4.9-7_all.deb
+Size: 842
+MD5sum: 124cdaf93e3afe152a05d6a3f96b7324
+SHA1: bb490cffca4cae9554ac99c178278af176a3b41b
+SHA256: 3cd49d0dc1ed81a85bfd99c083fd75729635eb9bae2d8ab3a7462ef17e4c98cd
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
 
