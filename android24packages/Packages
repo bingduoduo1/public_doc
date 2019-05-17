@@ -700,6 +700,37 @@ SHA256: dd4e2304d2cecaed3fe688fb39eb705e0cef7efefb0383c66a86d8bc69ce9fa3
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: Development files for libgpg-error
 
+Package: libiconv
+Version: 1.15-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1836
+Breaks: libandroid-support (<= 24)
+Replaces: libandroid-support (<= 24)
+Filename: ./libiconv_1.15-3_aarch64.deb
+Size: 494084
+MD5sum: 6e7810e13373f87c9529f85d4e3fa18b
+SHA1: ce261b0fdca6f06f9b02368d495e4c438596f3f4
+SHA256: 4a13a34f1b21e4c2a63bbf2c00d797b03c79e0dd77c6c46572f1916a5561f499
+Homepage: https://www.gnu.org/software/libiconv/
+Description: An implementation of iconv()
+
+Package: libiconv-dev
+Version: 1.15-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 80
+Depends: libiconv (= 1.15-3), libiconv
+Breaks: ndk-sysroot (<< 19b-4)
+Replaces: ndk-sysroot (<< 19b-4)
+Filename: ./libiconv-dev_1.15-3_aarch64.deb
+Size: 10548
+MD5sum: bd5eb5981edb4c6cacf1ebe8981e42e7
+SHA1: 0353059617ace85b760ddfd86846c546184a0132
+SHA256: 245a2b3b013aa4e00c1da1ed006175a03be8aee5edb999bed85e418a9c388a61
+Homepage: https://www.gnu.org/software/libiconv/
+Description: Development files for libiconv
+
 Package: libidn2
 Version: 2.1.1a
 Architecture: aarch64
