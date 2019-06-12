@@ -1,0 +1,1309 @@
+Package: apt
+Version: 1.4.9-7
+Architecture: aarch64
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2612
+Depends: libcurl, libiconv, liblzma, dpkg, gpgv, libc++, termux-exec, zlib
+Recommends: game-repo, science-repo
+Suggests: unstable-repo
+Conflicts: apt-transport-https
+Replaces: apt-transport-https
+Filename: ./android24packages/apt_1.4.9-7_aarch64.deb
+Size: 652710
+MD5sum: c27aa99a44e09be691f903d166d106a8
+SHA1: a709f3bb3b0454268d773d83d8b526c7adc45196
+SHA256: 32a24a5d17ea3faa94f6b297b5229203962aa5d211023564ee9eae405f8e2321
+Homepage: https://packages.debian.org/apt
+Description: Front-end for the dpkg package manager
+
+Package: apt-transport-tor
+Version: 1.4.9-7
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 36
+Depends: apt (= 1.4.9-7), tor
+Filename: ./android24packages/apt-transport-tor_1.4.9-7_all.deb
+Size: 842
+MD5sum: c855404172138af8fe81d92b04da32f7
+SHA1: 49d7c70614d3a2fa5d110e325426fca80534b177
+SHA256: a450bd61e290723b4e33a6d7a1fd7a6b297ab333866a09814fb6a7133d4b7cc9
+Homepage: https://packages.debian.org/apt
+Description: APT transport for anonymous package downloads via Tor
+
+Package: bash
+Version: 5.0.7-1
+Architecture: aarch64
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1216
+Depends: ncurses, readline (>= 8.0), libandroid-support, libiconv, termux-tools, command-not-found
+Filename: ./android24packages/bash_5.0.7-1_aarch64.deb
+Size: 378256
+MD5sum: 8f5eadf211101d3106e4338faa84d626
+SHA1: 1579d29e59a8f575fa67614ac1609d35ddf6822c
+SHA256: 58c95f4450983fb809896b2e0c5fb43c206c2397a38e63dd87b70bf3df53b72b
+Homepage: https://www.gnu.org/software/bash/
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+
+Package: bash-dev
+Version: 5.0.7-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 448
+Depends: bash (= 5.0.7-1), bash
+Filename: ./android24packages/bash-dev_5.0.7-1_aarch64.deb
+Size: 57380
+MD5sum: aac23515820db64e8e75ea875f351d58
+SHA1: c2aa1b46219f9e7cfebd3f533fccbd0e58b71223
+SHA256: ed00912c2e1d6132c1d1ebe816bb003fd9b52f539c626386351e866795ecc2f2
+Homepage: https://www.gnu.org/software/bash/
+Description: Development files for bash
+
+Package: busybox
+Version: 1.30.1-1
+Architecture: aarch64
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 612
+Conflicts: coreutils (<< 8.25-4)
+Filename: ./android24packages/busybox_1.30.1-1_aarch64.deb
+Size: 277436
+MD5sum: e45fdf229dd840c5c64b480b73f76b14
+SHA1: 3628bf2c4e2ce0739d1972952f877023e15149e5
+SHA256: 92611d6bf9e8cf2cc231d67f0f4ae9c68787f54df7e8862828962376ff947f0b
+Homepage: https://busybox.net/
+Description: Tiny versions of many common UNIX utilities into a single small executable
+
+Package: bzip2
+Version: 1.0.6-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 128
+Depends: libbz2 (= 1.0.6-3)
+Filename: ./android24packages/bzip2_1.0.6-3_aarch64.deb
+Size: 25054
+MD5sum: 71e542a4f4e22a26ee4b44ca6f192ffc
+SHA1: b530643ca31915104951a4a4a8480bf8cc9bbc44
+SHA256: 5f482ae1d8da4df3bd1a5471ee567a00a245d9c6c8010cb562bac4eec2b2c3dd
+Homepage: http://www.bzip.org/
+Description: Tools for working with bzip2 compression
+
+Package: ca-certificates
+Version: 20190124
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 256
+Filename: ./android24packages/ca-certificates_20190124_all.deb
+Size: 123010
+MD5sum: c1dd9dc85efa1fee30b1b87666a4fd6c
+SHA1: df75f1b5a4213a774a1a6358e956044a187262df
+SHA256: c1678ea49bcd12dbdbd958d0316c826764b873a0cb8d03d180b8839123038b0f
+Homepage: https://curl.haxx.se/docs/caextract.html
+Description: Common CA certificates
+
+Package: ca-certificates-java
+Version: 20190124
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 212
+Depends: ca-certificates (= 20190124)
+Filename: ./android24packages/ca-certificates-java_20190124_all.deb
+Size: 111674
+MD5sum: 5e8cb692abaebfcce728dbe9a66d2caf
+SHA1: 0e8d0fb04d02bb57e8c988c0ac9da331c4e56c61
+SHA256: fa5923f335b65ff402d65d24829e9b1ad34957e8a1461128efb0b769503d65ec
+Homepage: https://curl.haxx.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
+
+Package: command-not-found
+Version: 1.38
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 176
+Filename: ./android24packages/command-not-found_1.38_aarch64.deb
+Size: 24448
+MD5sum: a73848793e960a554a80320856a3f0b6
+SHA1: 3f14191d61a7b7fc0df29cb13ef79c01a3be81ca
+SHA256: f29a3d81a11f3bf0d981006487b245435e384d7069da3b370fc152966b27c433
+Homepage: https://termux.com
+Description: Suggest installation of packages in interactive shell sessions
+
+Package: curl
+Version: 7.64.1-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 236
+Depends: libcurl (= 7.64.1-2)
+Filename: ./android24packages/curl_7.64.1-2_aarch64.deb
+Size: 88128
+MD5sum: 37594caa65504bc905600bad3922a11d
+SHA1: 7d7421fd39e6311a086b2dc0333a9bbe335a54fc
+SHA256: bce4b2280057ff083403ac4198b6eabc4bc46d00fa00a80934eaa587f657d5d6
+Homepage: https://curl.haxx.se/
+Description: Command line tool for transferring data with URL syntax
+
+Package: dash
+Version: 0.5.10.2-1
+Architecture: aarch64
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 164
+Filename: ./android24packages/dash_0.5.10.2-1_aarch64.deb
+Size: 60640
+MD5sum: 767a40a64149163d268fe72e54590a36
+SHA1: 4215e8de8fc2b941b006360d1233d6241a09f9b0
+SHA256: 03c1b540e08d736ecbc4169874127a9c98d08482f69faae4f62de5417d92a8c0
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+Description: Small POSIX-compliant implementation of /bin/sh
+
+Package: diffutils
+Version: 3.7-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 320
+Depends: libiconv
+Filename: ./android24packages/diffutils_3.7-1_aarch64.deb
+Size: 91642
+MD5sum: 298ecdb13ab9b68781e379e9b45190f7
+SHA1: dc8a95883781b981be22e741e32f3925fa727056
+SHA256: 4f745b72425999e25909f0ec50e30728fcce5b30c9ebf768039db3d30ef2a29e
+Homepage: https://www.gnu.org/software/diffutils/
+Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+
+Package: dirmngr
+Version: 2.2.15-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 516
+Depends: gnupg (= 2.2.15-2), libgnutls, resolv-conf
+Filename: ./android24packages/dirmngr_2.2.15-2_aarch64.deb
+Size: 167340
+MD5sum: 2dd98d5a7130499ad58530d299b98e68
+SHA1: 99d9030aaa54b8e9da9fdd2f0bc96b53f5e43ad6
+SHA256: f8fc6f6b70ac6eaf408983bbbc98b8e394cd721be592024d3fae0612e291871a
+Homepage: https://www.gnupg.org/
+Description: Server for managing certificate revocation lists
+
+Package: dpkg
+Version: 1.19.4-2
+Architecture: aarch64
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 832
+Depends: busybox, liblzma, zlib
+Filename: ./android24packages/dpkg_1.19.4-2_aarch64.deb
+Size: 186640
+MD5sum: afc8e101471534ac20a7ee1bdae73392
+SHA1: 6ffb7f35291c90e39d49a5f0663a666ae12de8d2
+SHA256: 76bcf0966952f2b1929db301398fa868fdafff7adb9aa373d9906d1fd158367b
+Homepage: https://packages.debian.org/dpkg
+Description: Debian package management system
+
+Package: dpkg-dev
+Version: 1.19.4-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 264
+Depends: dpkg (= 1.19.4-2), dpkg
+Filename: ./android24packages/dpkg-dev_1.19.4-2_aarch64.deb
+Size: 20944
+MD5sum: 3405532d4c6a9be1b77f21f7957e71f2
+SHA1: 85fd171fbaf3669ceb42e256a71e0e337c8405e6
+SHA256: 2cdf21338a70776c27281d52463410edb2564db8b4f867cb0e3e52b13ee8ad1d
+Homepage: https://packages.debian.org/dpkg
+Description: Development files for dpkg
+
+Package: game-repo
+Version: 1.1
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 40
+Depends: termux-keyring
+Filename: ./android24packages/game-repo_1.1_all.deb
+Size: 970
+MD5sum: 89cfa1ff45d78c9c6b595d18fea19bd0
+SHA1: 56e58dddead4a6189a7daa2b8e0c91578352c2c7
+SHA256: 644a3cf740b0812a00b315a70c137d57e51e02da578e328fe19c1b5d7da0a9fe
+Homepage: https://github.com/termux/game-packages
+Description: Package repository containing games for termux
+
+Package: git
+Version: 2.21.0-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 16532
+Depends: libcurl, libiconv, less, openssl, pcre2, zlib
+Filename: ./android24packages/git_2.21.0-3_aarch64.deb
+Size: 2946408
+MD5sum: c524ab908ef08b9ca9c1d5b0c433c82f
+SHA1: 7ff1dca13a4711a26ec6f894412767f1ef7107f4
+SHA256: ac5f6e473d05b65d5d3af159a55e78360df520782c5cc39eaff7e349da539987
+Homepage: https://git-scm.com/
+Description: Fast, scalable, distributed revision control system
+
+Package: gnupg
+Version: 2.2.15-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 3076
+Depends: libassuan,libbz2,libgcrypt,libksba,libsqlite,libnpth,readline,pinentry,libgpg-error,zlib
+Conflicts: gnupg2 (<< 2.2.9-1)
+Replaces: gnupg2 (<< 2.2.9-1)
+Filename: ./android24packages/gnupg_2.2.15-2_aarch64.deb
+Size: 819306
+MD5sum: 887fc0dd573b2d05956a2a2df9c935c9
+SHA1: 0b908e130df62e137305cab8ca841c3875a16203
+SHA256: ae43f9cc956fee2b4059cd77b99b22256403adb693b2488928f50a94312fbee2
+Homepage: https://www.gnupg.org/
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+
+Package: gnutls
+Version: 3.6.7-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1188
+Depends: libgnutls (= 3.6.7-1)
+Filename: ./android24packages/gnutls_3.6.7-1_aarch64.deb
+Size: 232538
+MD5sum: 7b2e63e9448d60e73193d2bb520781b0
+SHA1: 9c82deaded62133a89dc65e4389fce5f88ddb8e2
+SHA256: 1120f8e369b3b30c8e6bad9229cee9357456a9d2064f0ed2fba0e8fdf8fc0b9b
+Homepage: https://www.gnutls.org/
+Description: Commandline utilities for interfacing with the gnutls library
+
+Package: gpgv
+Version: 2.2.15-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 364
+Depends: gnupg (= 2.2.15-2), libbz2, libgcrypt, libgpg-error, zlib
+Filename: ./android24packages/gpgv_2.2.15-2_aarch64.deb
+Size: 136534
+MD5sum: 75aa9ff9459a54278a661824a829d90c
+SHA1: 188848cd4cc240eb21ae70ee45c549b896224a71
+SHA256: ba767b19f7b526e7d5f888794dfe76b05ce68b556e02581e965f7bf235b051bb
+Homepage: https://www.gnupg.org/
+Description: GNU privacy guard - signature verification tool
+
+Package: iconv
+Version: 1.15-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 56
+Depends: libiconv (= 1.15-3)
+Filename: ./android24packages/iconv_1.15-3_aarch64.deb
+Size: 8232
+MD5sum: 1de8c088759a7189bbf9d69fbf3d0101
+SHA1: ab7398093a12528137e88f3455e44aef31021d7c
+SHA256: 6769725a1fc5a3339b8b49d325bb349964e2d349867c6738d9d34fa9de8a9678
+Homepage: https://www.gnu.org/software/libiconv/
+Description: Utility converting between different character encodings
+
+Package: krb5
+Version: 1.16.3-1
+Architecture: aarch64
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 2796
+Depends: libandroid-support, libandroid-glob, readline, openssl, libdb
+Filename: ./android24packages/krb5_1.16.3-1_aarch64.deb
+Size: 691142
+MD5sum: 486ecd8c50e95438b9c2642f03b16daa
+SHA1: c787cab4b96686856fcb95d0136b8d29c94efdfc
+SHA256: 80403d557b59b8bc181325ea7287f95cf764d5a1f2a64e6df4eb8719db191a41
+Homepage: https://web.mit.edu/kerberos
+Description: The Kerberos network authentication system
+
+Package: krb5-dev
+Version: 1.16.3-1
+Architecture: aarch64
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 900
+Depends: krb5 (= 1.16.3-1), krb5
+Filename: ./android24packages/krb5-dev_1.16.3-1_aarch64.deb
+Size: 114710
+MD5sum: 44457b2ad50c3f83a4e7455b0e6d86fc
+SHA1: b9f93dc87c8fd5bf850d2cf0185ecdde0ff65792
+SHA256: 3beba2db91bc4fa429b018db5b92648fbc656d8c5d51bcbafc4dcb641debdb6e
+Homepage: https://web.mit.edu/kerberos
+Description: Development files for krb5
+
+Package: ldns
+Version: 1.7.0-5
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 332
+Depends: openssl
+Filename: ./android24packages/ldns_1.7.0-5_aarch64.deb
+Size: 86576
+MD5sum: 76267ddc4e31091862d6eddd7f94b85b
+SHA1: 577484c99878f7525fcacc9025229307749f3cab
+SHA256: d3ae901bd4cdf8cf98a199de6fbf479375f3f70a8c993e85fbe751202634c905
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+
+Package: ldns-dev
+Version: 1.7.0-5
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2388
+Depends: ldns (= 1.7.0-5), ldns
+Filename: ./android24packages/ldns-dev_1.7.0-5_aarch64.deb
+Size: 175592
+MD5sum: 8501f1e06d7a65dbfac05e4c9179a7ec
+SHA1: 6c1d1f9e0bd19b61a6bd733521ce4e6e8697c607
+SHA256: efac8728c4417f9bfa423448c406d2f3bdd76ab0c0ede09fec6d280ebcbf924b
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Description: Development files for ldns
+
+Package: less
+Version: 530-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 236
+Depends: ncurses
+Filename: ./android24packages/less_530-2_aarch64.deb
+Size: 80022
+MD5sum: 4f7654ae5bbe0627e4d7ce99004fb2f3
+SHA1: 3d19361b9e7d4f66694ea7ad790a89968e6a469c
+SHA256: fad90586a3955be01fdf6034d2bacaa12edee356478561d2d59d2aa7de27b3aa
+Homepage: http://www.greenwoodsoftware.com/less/
+Description: Terminal pager program used to view the contents of a text file one screen at a time
+
+Package: libandroid-support
+Version: 24-5
+Architecture: aarch64
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 180
+Filename: ./android24packages/libandroid-support_24-5_aarch64.deb
+Size: 106084
+MD5sum: 7766811ccb3060d322ec0daa4f3435c8
+SHA1: f45d6b7c9ff4752c582b2a7e1372e2f92d648538
+SHA256: 55e381b42909898e99d59ee36bffe714f3baf9f128367b082337afd0074691fa
+Homepage: https://github.com/termux/libandroid-support
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+
+Package: libassuan
+Version: 2.5.3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 88
+Depends: libgpg-error
+Filename: ./android24packages/libassuan_2.5.3_aarch64.deb
+Size: 21822
+MD5sum: c0888b25b3993d6cb0f8c9c5fe95733f
+SHA1: 6b809a051732d235a675f951dd503d7ffcba8a01
+SHA256: 87b644faf92ad5800a694e631dd81731c5d8028a39abd2eccd362d2507250155
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
+
+Package: libassuan-dev
+Version: 2.5.3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 92
+Depends: libassuan (= 2.5.3), libassuan
+Filename: ./android24packages/libassuan-dev_2.5.3_aarch64.deb
+Size: 9156
+MD5sum: b0de91c6c1d6891d98fef200857f029a
+SHA1: 885850a5599435bfd3dc1f78c031b88936f84792
+SHA256: c808ddd321645739ccb0010d949d4af60cb15a7de01495a207de4b6fe5cbd2b2
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Description: Development files for libassuan
+
+Package: libbz2
+Version: 1.0.6-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 88
+Filename: ./android24packages/libbz2_1.0.6-3_aarch64.deb
+Size: 23650
+MD5sum: efe23b94e6b8908f99a89b32b982f5e5
+SHA1: f76e240b2466c5d0384ada3f53606c602f47b2fa
+SHA256: 6d4cdb30ed963ce1ea1ea28a96ab024f0a90863b1c9ac58b830ebce608649a60
+Homepage: http://www.bzip.org/
+Description: BZ2 format compression library
+
+Package: libbz2-dev
+Version: 1.0.6-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 36
+Depends: libbz2 (= 1.0.6-3), libbz2
+Filename: ./android24packages/libbz2-dev_1.0.6-3_aarch64.deb
+Size: 2414
+MD5sum: 57a26b48b92a18dfa786896eb4f4b0a9
+SHA1: d0be241d820615fce76cb67b4af7095807eca9b3
+SHA256: 5ac00803b1ddb96478d39f4cc73d78fd13cde69556a980d28fadf5eca4c3647d
+Homepage: http://www.bzip.org/
+Description: Development files for libbz2
+
+Package: libc++
+Version: 19b
+Architecture: aarch64
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 984
+Filename: ./android24packages/libc++_19b_aarch64.deb
+Size: 195274
+MD5sum: c413a51d825229735244b8e5de4cd20d
+SHA1: adc299a3475c50d73d413bd40381679e56c564d1
+SHA256: af095767ac2e94f14455f0f8f96f9ce95840e8979856e5902346165a90fff26e
+Homepage: https://libcxx.llvm.org/
+Description: C++ Standard Library
+
+Package: libcurl
+Version: 7.64.1-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 444
+Depends: openssl (>= 1.1.1), libnghttp2, zlib
+Conflicts: apt (<< 1.4.8-8)
+Filename: ./android24packages/libcurl_7.64.1-2_aarch64.deb
+Size: 156002
+MD5sum: 99eb3e415096fdfa6f14fe64d1113a54
+SHA1: 7122575b5355b946bf473efca2dc11e180bc0d2e
+SHA256: 0ef49bccb64e6b7f99d029d2057e5d17025b194ded7896cb468e1e995af87558
+Homepage: https://curl.haxx.se/
+Description: Easy-to-use client-side URL transfer library
+
+Package: libcurl-dev
+Version: 7.64.1-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2072
+Depends: libcurl (= 7.64.1-2), libcurl
+Filename: ./android24packages/libcurl-dev_7.64.1-2_aarch64.deb
+Size: 642664
+MD5sum: 3827a6013f0c37830a281946302e4db8
+SHA1: 98a48fc100bce298c22ad2308b3cbb6c79db3e35
+SHA256: ab9dc35ad8803b91610d04fd11dc8dd62c733117eb4423b683e3c433f15a9392
+Homepage: https://curl.haxx.se/
+Description: Development files for libcurl
+
+Package: libedit
+Version: 20190324-3.1-0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 208
+Depends: libandroid-support, ncurses
+Filename: ./android24packages/libedit_20190324-3.1-0_aarch64.deb
+Size: 55588
+MD5sum: d8028dd10cf25405f573fc4657139cc8
+SHA1: c75305c611038d6c7f17b692487e2566e78a8539
+SHA256: 2fb1876a9386598ff237902117b7f238f93e60e11b5d77ba07367e67f498eaa2
+Homepage: https://thrysoee.dk/editline/
+Description: Library providing line editing, history, and tokenization functions
+
+Package: libedit-dev
+Version: 20190324-3.1-0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Depends: libedit (= 20190324-3.1-0), libedit
+Filename: ./android24packages/libedit-dev_20190324-3.1-0_aarch64.deb
+Size: 13232
+MD5sum: 8559d250fb9cd4cd05e2d3d9a43065b6
+SHA1: d9e9cac8405553c847017460b28a30269d00808d
+SHA256: f436fcaa98c4f2c7b2ad9d362dcc2b8ab9fd464ee712499fb6d38c6e73bbafdc
+Homepage: https://thrysoee.dk/editline/
+Description: Development files for libedit
+
+Package: libevent
+Version: 2.1.8-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 244
+Filename: ./android24packages/libevent_2.1.8-1_aarch64.deb
+Size: 74408
+MD5sum: b963ccc796c316a09ed82a20acbe54cf
+SHA1: ba5f5bffd2343010abf2749164593c2de473636d
+SHA256: d93e05b0d72943e10c9679413c2613073c5cde854a7620543b0115720dd81f6a
+Homepage: https://libevent.org/
+Description: Library that provides asynchronous event notification
+
+Package: libevent-dev
+Version: 2.1.8-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 488
+Depends: libevent (= 2.1.8-1), libevent
+Filename: ./android24packages/libevent-dev_2.1.8-1_aarch64.deb
+Size: 70440
+MD5sum: 6117838281957ddeda94208384c6ca49
+SHA1: d6e4436973afe5cd5298b53038fe82a7596a9910
+SHA256: 960e1fca9b06d3d8e9e8bd5bc6f5801ec069e4f02ad72a278c665bdd676551b2
+Homepage: https://libevent.org/
+Description: Development files for libevent
+
+Package: libgcrypt
+Version: 1.8.4
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 736
+Depends: libgpg-error
+Filename: ./android24packages/libgcrypt_1.8.4_aarch64.deb
+Size: 275296
+MD5sum: 95539637dc0adb4c05d42df02f910585
+SHA1: e2c327d963f07f5006ab4a51a2c79091aa93a850
+SHA256: 911eae7fa642a91b1521cbd6811a7164b699a9078a208f3239950711e4302b3b
+Homepage: https://www.gnu.org/software/libgcrypt/
+Description: General purpose cryptographic library based on the code from GnuPG
+
+Package: libgcrypt-dev
+Version: 1.8.4
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 116
+Depends: libgcrypt (= 1.8.4), libgcrypt,libgpg-error-dev
+Filename: ./android24packages/libgcrypt-dev_1.8.4_aarch64.deb
+Size: 18248
+MD5sum: d258b928821255640ac56c92dcbb030b
+SHA1: eaabb0b424bdbe2888f05b6a693b60cbbaf3378b
+SHA256: 560ecfceb7ee975a879de2cad0db7935cf288c7620f2f0db44839be90fd42ebf
+Homepage: https://www.gnu.org/software/libgcrypt/
+Description: Development files for libgcrypt
+
+Package: libgmp
+Version: 6.1.2-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 368
+Filename: ./android24packages/libgmp_6.1.2-1_aarch64.deb
+Size: 153072
+MD5sum: 05ba6e1d7f3193b5d0e6f92c2f953cbe
+SHA1: 40f6b52426c59aa4ce22031a70748389cdd15c7d
+SHA256: a556c1b88c5a1ee3783ada0921bdac6db42c9563f053c995c484e080dfc0043b
+Homepage: https://gmplib.org/
+Description: Library for arbitrary precision arithmetic
+
+Package: libgmp-dev
+Version: 6.1.2-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 112
+Depends: libgmp (= 6.1.2-1), libgmp
+Filename: ./android24packages/libgmp-dev_6.1.2-1_aarch64.deb
+Size: 15676
+MD5sum: 2bdfbc960b5163c109bbb9fa3bd4272c
+SHA1: a9cc00bc22791e13f155ff6faf055da0042a0ae4
+SHA256: ec8a91c9344c78799c6fd1f3f8f8c29a3e131e6b7c4fa78841a0a2ade40441a5
+Homepage: https://gmplib.org/
+Description: Development files for libgmp
+
+Package: libgnutls
+Version: 3.6.7-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1248
+Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
+Filename: ./android24packages/libgnutls_3.6.7-1_aarch64.deb
+Size: 442410
+MD5sum: 6d15486b626e7a23c9ed617c1f89bceb
+SHA1: 272c64bcd6c0fad755bac8e2ac1f0be3dff32cdf
+SHA256: a373022b3a0ed14cbdd943f6afbc2e546d6f4ae2c26803be35458a042a7f09c6
+Homepage: https://www.gnutls.org/
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+
+Package: libgnutls-dev
+Version: 3.6.7-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 4992
+Depends: libgnutls (= 3.6.7-1), libgnutls,libidn2-dev, libnettle-dev
+Filename: ./android24packages/libgnutls-dev_3.6.7-1_aarch64.deb
+Size: 976786
+MD5sum: 76302ea08c4166e57092cb4f980563e4
+SHA1: c13022cd759b43d0f59f09ce5d61c4b290ce29f6
+SHA256: 526c780b9521eebaa89619941629b9062469d8b5cbaca8754557e72d8966e308
+Homepage: https://www.gnutls.org/
+Description: Development files for libgnutls
+
+Package: libgpg-error
+Version: 1.36
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 264
+Filename: ./android24packages/libgpg-error_1.36_aarch64.deb
+Size: 62996
+MD5sum: f0849d91277fdfa7ad421077f812de12
+SHA1: 858d323554e3df993c15a51b3c922985b6ec76dc
+SHA256: c40eb81ec644e19041c124fdd7245b23d5b99a32dc51f7a27199f750e50d68b8
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: Small library that defines common error values for all GnuPG components
+
+Package: libgpg-error-dev
+Version: 1.36
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 196
+Depends: libgpg-error (= 1.36), libgpg-error
+Filename: ./android24packages/libgpg-error-dev_1.36_aarch64.deb
+Size: 17452
+MD5sum: 48e3bd5427eb843cb96c7bc1e7bac99f
+SHA1: fd0cf9a5d9c1c06452798ca246d39486bf065eb5
+SHA256: 82ec43de6b240cf3f4dd2d18946c64b5c68206470c4dd3b3152ed63fd305c88c
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: Development files for libgpg-error
+
+Package: libiconv
+Version: 1.15-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1836
+Breaks: libandroid-support (<= 24)
+Replaces: libandroid-support (<= 24)
+Filename: ./android24packages/libiconv_1.15-3_aarch64.deb
+Size: 494062
+MD5sum: d639c0dc98db53006671c583b705fd7e
+SHA1: a40847eaa093b4e71b17d4f2774ca9b3c00ae406
+SHA256: 16c4cdbc6cc092bcc09167445bd14c9256cf066369c8f46de1f85a30e8dd7587
+Homepage: https://www.gnu.org/software/libiconv/
+Description: An implementation of iconv()
+
+Package: libiconv-dev
+Version: 1.15-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 80
+Depends: libiconv (= 1.15-3), libiconv
+Breaks: ndk-sysroot (<< 19b-4)
+Replaces: ndk-sysroot (<< 19b-4)
+Filename: ./android24packages/libiconv-dev_1.15-3_aarch64.deb
+Size: 10538
+MD5sum: 321bbd0f6d10456140e6e6fee9114d83
+SHA1: ad14b1d3c0c847824bd1a14e92cc4e941da6909b
+SHA256: 9a5658508e82335eb40e8f624ef1e42c7ad4b1764b6a89f9b7f5901fb4318c1e
+Homepage: https://www.gnu.org/software/libiconv/
+Description: Development files for libiconv
+
+Package: libidn2
+Version: 2.1.1a
+Architecture: aarch64
+Maintainer: lokesh @hax4us
+Installed-Size: 220
+Depends: libunistring, libandroid-support
+Filename: ./android24packages/libidn2_2.1.1a_aarch64.deb
+Size: 51624
+MD5sum: 3a66aeb438286d21ff7b94974acbf08c
+SHA1: afc0e174e1f9de1f72a000ac1802b3f73f63b74b
+SHA256: 8bfa4ba423a7f970c7bdd770bb7cac283ecbae84991ec6d8ad793e0712bcc969
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Free software implementation of IDNA2008, Punycode and TR46
+
+Package: libidn2-dev
+Version: 2.1.1a
+Architecture: aarch64
+Maintainer: lokesh @hax4us
+Installed-Size: 144
+Depends: libidn2 (= 2.1.1a), libidn2
+Filename: ./android24packages/libidn2-dev_2.1.1a_aarch64.deb
+Size: 20872
+MD5sum: 06c7a9e04a86d9d9e017276f845fc343
+SHA1: 59f9b566d39014c145974446b0f537edbeeda71e
+SHA256: 7321c3e9577775a67752ca8987d39257e84889738b02812f9a2959a822b5a470
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Development files for libidn2
+
+Package: libksba
+Version: 1.3.5-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 196
+Depends: libgpg-error
+Filename: ./android24packages/libksba_1.3.5-1_aarch64.deb
+Size: 61414
+MD5sum: 212afa8f6db379ac8c20148e2c0207fc
+SHA1: 51d5c517b7cb080490f01b0ce14014ba5c0326e9
+SHA256: 13063367f9ea0f0a4c351dee8ba723ea5c8470a94e7d0cfb17b41303c9fbcfec
+Homepage: https://gnupg.org/related_software/libksba/
+Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
+
+Package: libksba-dev
+Version: 1.3.5-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 76
+Depends: libksba (= 1.3.5-1), libksba
+Filename: ./android24packages/libksba-dev_1.3.5-1_aarch64.deb
+Size: 7322
+MD5sum: 0839ce9b8e354efd268fb13982142900
+SHA1: 4cddee6269fed2c828f96f6e3abd24998e359dd9
+SHA256: d959503bae8e60f6f4e9ca1bb1d6853955a1a4140bc7360e12c1aa9eea25bc08
+Homepage: https://gnupg.org/related_software/libksba/
+Description: Development files for libksba
+
+Package: liblzma
+Version: 5.2.4-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 148
+Filename: ./android24packages/liblzma_5.2.4-2_aarch64.deb
+Size: 57210
+MD5sum: 55dd3d78b2b421852322774892c406ac
+SHA1: d0c10b4c99759ec8c967c95e1a53db809fdef63d
+SHA256: a6230eb3b98df7efc968f0de6d8c69ab9b01a62e5968c9ab9599b3ea35e09d49
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+
+Package: liblzma-dev
+Version: 5.2.4-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 244
+Depends: liblzma (= 5.2.4-2), liblzma
+Filename: ./android24packages/liblzma-dev_5.2.4-2_aarch64.deb
+Size: 35116
+MD5sum: bd92a6fcc12bae50bb80df95ecbc90fa
+SHA1: 0ddcedf230b8f57a9af90193cda8ae1922475659
+SHA256: 845636f643620761ee7e0be7cb52cae14b2802927352213d44cd9262b0f81c88
+Homepage: https://tukaani.org/xz/
+Description: Development files for liblzma
+
+Package: libnettle
+Version: 3.4.1-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 428
+Depends: libgmp
+Filename: ./android24packages/libnettle_3.4.1-1_aarch64.deb
+Size: 205566
+MD5sum: d75b79a8ef59e1be1970c01d96a67feb
+SHA1: 43ecaf01ad9e90f2bcfc2414228d09571a43d477
+SHA256: aae5f184d1768f57b3c12e94732f80ee9d83c6595e621b92a2011dc5a5f049e4
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Cryptographic library that is designed to fit easily in more or less any context
+
+Package: libnettle-dev
+Version: 3.4.1-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 408
+Depends: libnettle (= 3.4.1-1), libnettle
+Filename: ./android24packages/libnettle-dev_3.4.1-1_aarch64.deb
+Size: 35128
+MD5sum: 3bed2926bb57bbdfbf4d2963ba8278a9
+SHA1: 114c34c5b7528403ef17a62fd5a7aa610f901543
+SHA256: 0b343b9a35382868c28ecc57feedf7f3bc79931be91a7db4694aa5d088ae444c
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Development files for libnettle
+
+Package: libnghttp2
+Version: 1.38.0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 152
+Filename: ./android24packages/libnghttp2_1.38.0_aarch64.deb
+Size: 41912
+MD5sum: 328fd835f823720b76e7f211a2e483d7
+SHA1: 9d0a2ca230325e8c3cd5d3d17800ef5c7e3901e3
+SHA256: b0bd3bacfe9de14e328a9b2b019c6f7877bf9b04f76087f8fd7227fbc669370b
+Homepage: https://nghttp2.org/
+Description: nghttp HTTP 2.0 library
+
+Package: libnghttp2-dev
+Version: 1.38.0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 236
+Depends: libnghttp2 (= 1.38.0), libnghttp2
+Filename: ./android24packages/libnghttp2-dev_1.38.0_aarch64.deb
+Size: 31692
+MD5sum: c43a9845924ebda6f55bb744f44022dc
+SHA1: 9492f21c58de92b3590dbf4fa14b92fce1b9c475
+SHA256: 7a393cda1f29bfad2db02ce22e3c360c0508185c3d77c2602afaa97e3977d598
+Homepage: https://nghttp2.org/
+Description: Development files for libnghttp2
+
+Package: libnpth
+Version: 1.6
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 56
+Filename: ./android24packages/libnpth_1.6_aarch64.deb
+Size: 5102
+MD5sum: 842d8010650d93b9025f3c31b46b1cbe
+SHA1: c6dee44402796dcc9fc306eef0add6fd0321724e
+SHA256: c5c39a279bb990fe96f605e01ec5f1c4e8963c54901d84c709388c92de5bf115
+Homepage: https://www.gnupg.org/related_software/npth/
+Description: New GNU Portable Threads Library
+
+Package: libnpth-dev
+Version: 1.6
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 56
+Depends: libnpth (= 1.6), libnpth
+Filename: ./android24packages/libnpth-dev_1.6_aarch64.deb
+Size: 6632
+MD5sum: 58a2cd6fd5bb842d162c2292777a5e4b
+SHA1: b132859b3155e0055cc75989696774ec47e4c380
+SHA256: 7849f9093019326799a4c805f5b60ea7be8b109a02beecd2d0feb919d5ca79e2
+Homepage: https://www.gnupg.org/related_software/npth/
+Description: Development files for libnpth
+
+Package: libsqlite
+Version: 3.27.2-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 812
+Depends: zlib
+Filename: ./android24packages/libsqlite_3.27.2-2_aarch64.deb
+Size: 360308
+MD5sum: 68fe45543e806f878a3a00a4b302a781
+SHA1: e6aee937219a781b6e5d3ad1b4790e1cef2fa385
+SHA256: 6b2de63b262676c78b06a23bef3825351affad62cb953dc06138b8b5ec8f12f2
+Homepage: https://www.sqlite.org
+Description: Library implementing a self-contained and transactional SQL database engine
+
+Package: libsqlite-dev
+Version: 3.27.2-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 752
+Depends: libsqlite (= 3.27.2-2), libsqlite
+Filename: ./android24packages/libsqlite-dev_3.27.2-2_aarch64.deb
+Size: 145670
+MD5sum: f1b8b22f26c4d32c2d56bdae16865b39
+SHA1: 51af6b41a57a50d01063e7ca91413e6c4c4dd776
+SHA256: e407ef033c2803966f2a3a1ca8dc9a880a23e8925e237cd1e95958585b77b93d
+Homepage: https://www.sqlite.org
+Description: Development files for libsqlite
+
+Package: libunistring
+Version: 0.9.10-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1584
+Depends: libandroid-support, libiconv
+Filename: ./android24packages/libunistring_0.9.10-2_aarch64.deb
+Size: 361502
+MD5sum: 0915456e9b0b287e04a7a457b1b07ab0
+SHA1: afaa0b8281be929acb73c2d8fc7ea95f6f2c689e
+SHA256: 164c019def121cf6e93c99cca9d0e18f9f2d4d178ca630f2c7e3aac0a37db4a9
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Library providing functions for manipulating Unicode strings
+
+Package: libunistring-dev
+Version: 0.9.10-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 228
+Depends: libunistring (= 0.9.10-2), libunistring
+Filename: ./android24packages/libunistring-dev_0.9.10-2_aarch64.deb
+Size: 22280
+MD5sum: 5232ab45e1ddac16d6efff15b74a921e
+SHA1: 869a87a0b8dff7245866935df8b09ccd166650ba
+SHA256: e41b49de5e99474b1610bdca97b5b7c211b502e9d8df1a4a1d6866292a082b22
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Development files for libunistring
+
+Package: ncurses
+Version: 6.1.20181117-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 552
+Filename: ./android24packages/ncurses_6.1.20181117-3_aarch64.deb
+Size: 117456
+MD5sum: 31b6b184dac1e615562573c699a8a7e5
+SHA1: 454a98bad47a6fe2eb848f944eb1da1dbe6faafd
+SHA256: 1f9247e9d47c156470a1e8b69c77ca38d8398c33af1e1f54d5e0e0635c7b5663
+Homepage: http://invisible-island.net/ncurses/
+Description: Library for text-based user interfaces in a terminal-independent manner
+
+Package: ncurses-dev
+Version: 6.1.20181117-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 916
+Depends: ncurses (= 6.1.20181117-3), ncurses
+Filename: ./android24packages/ncurses-dev_6.1.20181117-3_aarch64.deb
+Size: 340830
+MD5sum: 5494e7be631910fdf674c31eb26f995e
+SHA1: 70d913aa02790fbf3eb2c35d8a9d5e8f2fd7847b
+SHA256: 728e2d5f20587ecc45532726212c538f32a3d28d9e78d8d5fe8126ae0504f34e
+Homepage: http://invisible-island.net/ncurses/
+Description: Development files for ncurses
+
+Package: ncurses-ui-libs
+Version: 6.1.20181117-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 144
+Depends: ncurses (= 6.1.20181117-3)
+Filename: ./android24packages/ncurses-ui-libs_6.1.20181117-3_aarch64.deb
+Size: 30234
+MD5sum: 68953e9f4ee68c93f80614c45f4c7d9d
+SHA1: 3976f953807edb1ca962a0b55a69a164dcd0ab90
+SHA256: e9a0a30ebf2db29d6754929f2d335e23eae78f7f9ce4e93d4a2d29c992824431
+Homepage: http://invisible-island.net/ncurses/
+Description: Libraries for terminal user interfaces based on ncurses
+
+Package: ncurses-utils
+Version: 6.1.20181117-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 316
+Depends: ncurses (= 6.1.20181117-3)
+Filename: ./android24packages/ncurses-utils_6.1.20181117-3_aarch64.deb
+Size: 88126
+MD5sum: 457ede9f148eefa2d9997a22c4ad7d1a
+SHA1: 2643b8cba8a0ab674eaadef1b89d456be7253408
+SHA256: 6b3af9401fe966cf786a54bc6373aacbc75cd6979e06b5fbbe31f3b8e4808276
+Homepage: http://invisible-island.net/ncurses/
+Description: Tools for working with terminals
+
+Package: nettle
+Version: 3.4.1-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 132
+Depends: libnettle (= 3.4.1-1)
+Filename: ./android24packages/nettle_3.4.1-1_aarch64.deb
+Size: 16402
+MD5sum: 39027904f20716494c0257185dc93dd1
+SHA1: 42cd779ca80499d8e94cb4c3f9f6185228aff7fc
+SHA256: 5e5d11a961d1d03fba0e92b292ba6eedea392cfc07c92dcfa2abee45b5a3e87a
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Low level cryptographic tools
+
+Package: openssh
+Version: 8.0p1-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 3928
+Depends: libandroid-support, ldns, openssl, libedit, termux-auth, krb5, zlib
+Conflicts: dropbear
+Filename: ./android24packages/openssh_8.0p1-1_aarch64.deb
+Size: 544744
+MD5sum: fe34536d7f4c5404c576a1010ef19f14
+SHA1: 7b1da0504cdaf0504b7edc4f2a2e599e977e6a10
+SHA256: cb0d2957909d2467fcca21876834eb42592cf3697e0d3363ada33a4e493d272a
+Homepage: https://www.openssh.com/
+Description: Secure shell for logging into a remote machine
+
+Package: openssl
+Version: 1.1.1b-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2496
+Depends: ca-certificates
+Conflicts: libcurl (<< 7.61.0-1)
+Breaks: openssl-tool (<< 1.1.1b-1)
+Replaces: openssl-tool (<< 1.1.1b-1)
+Filename: ./android24packages/openssl_1.1.1b-3_aarch64.deb
+Size: 909690
+MD5sum: 5aefc4a1be148a1185f352004b0fdc8f
+SHA1: a48ef5908761f0f886f57ffc30cf4ceff0863767
+SHA256: d0e0415f42c4090e603331ef6b824a11a734c7be160c66a57cd57b7aa3df81fd
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
+Package: openssl-dev
+Version: 1.1.1b-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1616
+Depends: openssl (= 1.1.1b-3), openssl
+Filename: ./android24packages/openssl-dev_1.1.1b-3_aarch64.deb
+Size: 193898
+MD5sum: 72f2cbe736291e1f0feb369eba9538b7
+SHA1: 7bdd12113283f236777bfc3e2676342f0eb5c47b
+SHA256: 66e2060740810d00282685f78e2bebea9d87f1d7605091a07921976d5e1ed4ac
+Homepage: https://www.openssl.org/
+Description: Development files for openssl
+
+Package: openssl-tool
+Version: 1.1.1b-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 628
+Depends: openssl (= 1.1.1b-3)
+Filename: ./android24packages/openssl-tool_1.1.1b-3_aarch64.deb
+Size: 184504
+MD5sum: 108a2a0dcbad05076168e2c1a722aa21
+SHA1: 06353d734d5ad0399dfb09324f7d097921bcbb11
+SHA256: b8cfcbba77971fbc5f4b414bee2df49d399ac91a881deb39f16cbb6d82dc3c50
+Homepage: https://www.openssl.org/
+Description: The openssl command line cryptographic tool
+
+Package: pcre2
+Version: 10.33
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1124
+Filename: ./android24packages/pcre2_10.33_aarch64.deb
+Size: 254406
+MD5sum: 96c2be711666d511b0cc03d6c681caf9
+SHA1: b0329d54635de3c578fcc270bf4d6e84a113091d
+SHA256: f0131f33af0e2e37b7674386aa6307594abfd03786a69598a117ed87918d11bf
+Homepage: https://www.pcre.org
+Description: Perl 5 compatible regular expression library
+
+Package: pcre2-dev
+Version: 10.33
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 612
+Depends: pcre2 (= 10.33), pcre2
+Filename: ./android24packages/pcre2-dev_10.33_aarch64.deb
+Size: 233190
+MD5sum: e33b908ccb0d4cb39a7981b831cca267
+SHA1: 178930cee3816e57506f009af11b4071e7873cb8
+SHA256: 7e5ad3bc934efdb4daf61632151cfd3bfc68793c538fc78d166196ea6dafd794
+Homepage: https://www.pcre.org
+Description: Development files for pcre2
+
+Package: pinentry
+Version: 1.1.0-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Depends: libandroid-support, libassuan, libiconv, ncurses
+Filename: ./android24packages/pinentry_1.1.0-3_aarch64.deb
+Size: 20930
+MD5sum: 96100c47f437ffa562ccefadd93e3bc9
+SHA1: 1f2aa90a3e0e94fe07b98e5ea7546570ac2a1cc2
+SHA256: 1b2b2f9c1e5b272adbe99b3222f21403733b99f08ae62e9338de44bb88a254ce
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Description: Dialog allowing secure password entry
+
+Package: readline
+Version: 8.0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 368
+Depends: libandroid-support, ncurses
+Breaks: bash (<< 5.0)
+Filename: ./android24packages/readline_8.0_aarch64.deb
+Size: 89416
+MD5sum: 3e1c747828a2675195910c2fc6027c1f
+SHA1: 75e491926fa4a8a4816498f674e8a66d9170c931
+SHA256: 025def052bd8f09399972a8b7c1dfd96047bfdc4397e659a9added9093233fc9
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Library that allow users to edit command lines as they are typed in
+
+Package: readline-dev
+Version: 8.0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 160
+Depends: readline (= 8.0), readline
+Filename: ./android24packages/readline-dev_8.0_aarch64.deb
+Size: 39684
+MD5sum: 1227bd86a4bbcac052585e2b7b73dafd
+SHA1: 3b07d6f4a205996cba28882af712f3644bc8d28a
+SHA256: e1b16b7c33404eea05f7e8eaa5b20e947e6884adecc4be261128521d56ee23a6
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Development files for readline
+
+Package: resolv-conf
+Version: 1.2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 32
+Filename: ./android24packages/resolv-conf_1.2_aarch64.deb
+Size: 860
+MD5sum: df379f89376045bfcc2a482684bc3bfe
+SHA1: 4a73269ebf719d3a7e088c8a312e9f2a31d66738
+SHA256: 2ee544209249907ae0155097492710dcb8c766d2d7ac06555b386407790927ec
+Homepage: http://man7.org/linux/man-pages/man5/resolv.conf.5.html
+Description: Resolver configuration file
+
+Package: science-repo
+Version: 1.0
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 40
+Depends: termux-keyring
+Filename: ./android24packages/science-repo_1.0_all.deb
+Size: 974
+MD5sum: d1fff50c2fd9bfbb272460f29aacd6f3
+SHA1: 4232d51608176c4f2cda8bfbdefd1de40ebce53d
+SHA256: 5777eb53d7fc5f79b4f3b893e468e50568e34bd004928cc5fbd2d4568f302d5f
+Homepage: https://github.com/termux/science-packages
+Description: Package repository containing science software
+
+Package: sqlite
+Version: 3.27.2-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 960
+Depends: libsqlite (= 3.27.2-2), readline
+Filename: ./android24packages/sqlite_3.27.2-2_aarch64.deb
+Size: 423708
+MD5sum: a050f8f633f3a152f2ecdd514181eb6c
+SHA1: ea4df6d5d7c082ffd9757cdfb3528c5afbb5ed31
+SHA256: d2178a9b90159275a90c06a4bab191af58c2dab6dec07ca1b79e025233461bab
+Homepage: https://www.sqlite.org
+Description: Command line shell for SQLite
+
+Package: sshpass
+Version: 1.06
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 64
+Filename: ./android24packages/sshpass_1.06_aarch64.deb
+Size: 7344
+MD5sum: f514b9a0ffd7f7cd6b2654a6bc2354bb
+SHA1: 59017f500991a16f6d97a00dd1d5b289d73d21b5
+SHA256: a9537de88fc7cb3e47ca7fa511f3c4d041a13d16e5f0a2392027d718f63a5a81
+Homepage: http://sourceforge.net/projects/sshpass/
+Description: Noninteractive ssh password provider
+
+Package: termux-am
+Version: 0.2
+Architecture: all
+Maintainer: Michal Bednarski @michalbednarski
+Installed-Size: 60
+Conflicts: termux-tools (<< 0.51)
+Filename: ./android24packages/termux-am_0.2_all.deb
+Size: 16886
+MD5sum: 01fc919e6548956a21155e49d8a23e38
+SHA1: e73920eda8e497f12092adbd7f2ecf0c0e386199
+SHA256: 65776ee8354bacabbe3cf49cdd0bbae944c1fcde4c63686526aeb87c399d8ba7
+Homepage: https://github.com/michalbednarski/TermuxAm
+Description: Android Oreo-compatible am command reimplementation
+
+Package: termux-auth
+Version: 1.1
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Installed-Size: 56
+Depends: openssl
+Filename: ./android24packages/termux-auth_1.1_aarch64.deb
+Size: 3890
+MD5sum: d2d7398f8f743f8b32dfda5f6da05a75
+SHA1: c60900bbc9631e6e8f76a7cfb3316f4078f0ce33
+SHA256: 58cdf5b0331de5d22089ca453e0184450d00a44d973293045a90bca8bdbd3a2c
+Homepage: https://github.com/termux/termux-auth
+Description: Password authentication library and utility for Termux
+
+Package: termux-auth-dev
+Version: 1.1
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Installed-Size: 32
+Depends: termux-auth (= 1.1), termux-auth
+Filename: ./android24packages/termux-auth-dev_1.1_aarch64.deb
+Size: 1210
+MD5sum: 186cb1b5c32581fd08f48229ba2394a5
+SHA1: 772967427a349f85a0e306f3fbef34985e952810
+SHA256: 2204c41fe6312fcb64fc5a864fad68c79c69892d86ad4425bb3403e594c8e47f
+Homepage: https://github.com/termux/termux-auth
+Description: Development files for termux-auth
+
+Package: termux-exec
+Version: 0.4
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 40
+Filename: ./android24packages/termux-exec_0.4_aarch64.deb
+Size: 2604
+MD5sum: 9d797179cc6088c7ebe6c7bb23dbf0e0
+SHA1: 4c36bb8286e7905e267f1b6b2ec0e5a73931c85e
+SHA256: 508b3e2273c26fbbbf9de302b4f6aa9dfdae499788644711b2cfaf87b2871288
+Homepage: https://github.com/termux/termux-exec
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+
+Package: termux-keyring
+Version: 1.2
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 72
+Filename: ./android24packages/termux-keyring_1.2_all.deb
+Size: 31688
+MD5sum: caad625145a44e8a75890e5cf267fb41
+SHA1: 2f79a9b95a4953fce354387aed977641a902d33b
+SHA256: f301b78bf189ed00d3b39b5250536d660e40737923f39eb37a4e3cebd41ec560
+Homepage: https://github.com/termux
+Description: GPG public keys for the official Termux repositories
+
+Package: termux-tools
+Version: 0.66
+Architecture: all
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 124
+Depends: termux-am
+Conflicts: procps (<< 3.3.15-2)
+Filename: ./android24packages/termux-tools_0.66_all.deb
+Size: 4406
+MD5sum: 064568baefc3a8474d948e460fa4c9e0
+SHA1: 3fc493805c230fdee15f7dadc0466e54856824d7
+SHA256: a7dc0c74c1aeca3ec1b1224f4610866b2c0571a720782239c3d0e991983bbfcc
+Homepage: https://termux.com/
+Description: Basic system tools for Termux
+
+Package: tor
+Version: 0.4.0.5-1
+Architecture: aarch64
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 10984
+Depends: libevent, openssl, liblzma, zlib
+Filename: ./android24packages/tor_0.4.0.5-1_aarch64.deb
+Size: 1958382
+MD5sum: 52e84f6fe93a96a49f661a5c9d95960e
+SHA1: 60bcfa96e19e4a8aeea73117818023c7cdd88b78
+SHA256: d68e2bbf989a182991eb1b58df1439d1f43c4e3da70760b2634aa106d34efc7b
+Homepage: https://www.torproject.org
+Description: The Onion Router anonymizing overlay network
+
+Package: unrar
+Version: 5.7.5
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 288
+Depends: libandroid-support
+Filename: ./android24packages/unrar_5.7.5_aarch64.deb
+Size: 102308
+MD5sum: 3001222310fe0dfcd0b597442e978a29
+SHA1: 9298afdba097f67d98aef441c4fd814ed8809f39
+SHA256: 364a249ae0992f8d5bc633c581971578cd5a27443537fb438c7e396a3f014a3f
+Homepage: https://www.rarlab.com/
+Description: Tool for extracting files from .rar archives
+
+Package: xz-utils
+Version: 5.2.4-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 216
+Depends: liblzma (= 5.2.4-2)
+Filename: ./android24packages/xz-utils_5.2.4-2_aarch64.deb
+Size: 57022
+MD5sum: d96574bb527711af2054c8ac629c7985
+SHA1: 1d96c825be4e0443506be669a973270f4969f34d
+SHA256: a6af68b655a8295a51317def61dbb732555546ea1585d505558253b377eae5b1
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression tools
+
+Package: zlib
+Version: 1.2.11-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 104
+Filename: ./android24packages/zlib_1.2.11-3_aarch64.deb
+Size: 35778
+MD5sum: 02ff28570bb973c4378a2aca83543971
+SHA1: a48b7be9029db12e79cfb30b44d1ca770726bbe5
+SHA256: c020a71457b99ad671d94cf18e2a9c895fae2844cb01b84351b7bf2286ee7461
+Homepage: https://www.zlib.net/
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+
+Package: zlib-dev
+Version: 1.2.11-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 168
+Depends: zlib (= 1.2.11-3), zlib
+Breaks: ndk-sysroot (<< 19b-3)
+Replaces: ndk-sysroot (<< 19b-3)
+Filename: ./android24packages/zlib-dev_1.2.11-3_aarch64.deb
+Size: 29848
+MD5sum: a770d2e2b2846589627d1ec77d3d9c03
+SHA1: bc0c06907a577a79cb0573a5c99b92349c256456
+SHA256: 18ace4c4f0efadb9b3bf5d44a2633dbbc34195044144064eb00f5bbeacbc1773
+Homepage: https://www.zlib.net/
+Description: Development files for zlib
+
