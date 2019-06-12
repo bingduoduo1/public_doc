@@ -884,6 +884,21 @@ SHA256: 5e5d11a961d1d03fba0e92b292ba6eedea392cfc07c92dcfa2abee45b5a3e87a
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
 
+Package: openssh
+Version: 8.0p1-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 3928
+Depends: libandroid-support, ldns, openssl, libedit, termux-auth, krb5, zlib
+Conflicts: dropbear
+Filename: ./openssh_8.0p1-1_aarch64.deb
+Size: 544744
+MD5sum: fe34536d7f4c5404c576a1010ef19f14
+SHA1: 7b1da0504cdaf0504b7edc4f2a2e599e977e6a10
+SHA256: cb0d2957909d2467fcca21876834eb42592cf3697e0d3363ada33a4e493d272a
+Homepage: https://www.openssh.com/
+Description: Secure shell for logging into a remote machine
+
 Package: openssl
 Version: 1.1.1b-3
 Architecture: aarch64
@@ -1039,6 +1054,19 @@ SHA1: ea4df6d5d7c082ffd9757cdfb3528c5afbb5ed31
 SHA256: d2178a9b90159275a90c06a4bab191af58c2dab6dec07ca1b79e025233461bab
 Homepage: https://www.sqlite.org
 Description: Command line shell for SQLite
+
+Package: sshpass
+Version: 1.06
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 64
+Filename: ./sshpass_1.06_aarch64.deb
+Size: 7344
+MD5sum: f514b9a0ffd7f7cd6b2654a6bc2354bb
+SHA1: 59017f500991a16f6d97a00dd1d5b289d73d21b5
+SHA256: a9537de88fc7cb3e47ca7fa511f3c4d041a13d16e5f0a2392027d718f63a5a81
+Homepage: http://sourceforge.net/projects/sshpass/
+Description: Noninteractive ssh password provider
 
 Package: termux-am
 Version: 0.2
