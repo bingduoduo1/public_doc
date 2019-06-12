@@ -300,6 +300,62 @@ SHA256: 6769725a1fc5a3339b8b49d325bb349964e2d349867c6738d9d34fa9de8a9678
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
 
+Package: krb5
+Version: 1.16.3-1
+Architecture: aarch64
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 2796
+Depends: libandroid-support, libandroid-glob, readline, openssl, libdb
+Filename: ./krb5_1.16.3-1_aarch64.deb
+Size: 691142
+MD5sum: 486ecd8c50e95438b9c2642f03b16daa
+SHA1: c787cab4b96686856fcb95d0136b8d29c94efdfc
+SHA256: 80403d557b59b8bc181325ea7287f95cf764d5a1f2a64e6df4eb8719db191a41
+Homepage: https://web.mit.edu/kerberos
+Description: The Kerberos network authentication system
+
+Package: krb5-dev
+Version: 1.16.3-1
+Architecture: aarch64
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 900
+Depends: krb5 (= 1.16.3-1), krb5
+Filename: ./krb5-dev_1.16.3-1_aarch64.deb
+Size: 114710
+MD5sum: 44457b2ad50c3f83a4e7455b0e6d86fc
+SHA1: b9f93dc87c8fd5bf850d2cf0185ecdde0ff65792
+SHA256: 3beba2db91bc4fa429b018db5b92648fbc656d8c5d51bcbafc4dcb641debdb6e
+Homepage: https://web.mit.edu/kerberos
+Description: Development files for krb5
+
+Package: ldns
+Version: 1.7.0-5
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 332
+Depends: openssl
+Filename: ./ldns_1.7.0-5_aarch64.deb
+Size: 86576
+MD5sum: 76267ddc4e31091862d6eddd7f94b85b
+SHA1: 577484c99878f7525fcacc9025229307749f3cab
+SHA256: d3ae901bd4cdf8cf98a199de6fbf479375f3f70a8c993e85fbe751202634c905
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+
+Package: ldns-dev
+Version: 1.7.0-5
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2388
+Depends: ldns (= 1.7.0-5), ldns
+Filename: ./ldns-dev_1.7.0-5_aarch64.deb
+Size: 175592
+MD5sum: 8501f1e06d7a65dbfac05e4c9179a7ec
+SHA1: 6c1d1f9e0bd19b61a6bd733521ce4e6e8697c607
+SHA256: efac8728c4417f9bfa423448c406d2f3bdd76ab0c0ede09fec6d280ebcbf924b
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Description: Development files for ldns
+
 Package: less
 Version: 530-2
 Architecture: aarch64
@@ -313,6 +369,33 @@ SHA1: 3d19361b9e7d4f66694ea7ad790a89968e6a469c
 SHA256: fad90586a3955be01fdf6034d2bacaa12edee356478561d2d59d2aa7de27b3aa
 Homepage: http://www.greenwoodsoftware.com/less/
 Description: Terminal pager program used to view the contents of a text file one screen at a time
+
+Package: libandroid-glob
+Version: 0.4
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 44
+Filename: ./libandroid-glob_0.4_aarch64.deb
+Size: 4678
+MD5sum: f3697b56aeeadef1d94e450c69e314f1
+SHA1: aab237ffc60704c5cbc81eb49878dc8fb6387b7c
+SHA256: 902ea03fce2a82d1f4dcb5a6fefd24c23fc8c9e175a9f84955da7517b173e154
+Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
+Description: Shared library for the glob(3) system function
+
+Package: libandroid-glob-dev
+Version: 0.4
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 32
+Depends: libandroid-glob (= 0.4), libandroid-glob
+Filename: ./libandroid-glob-dev_0.4_aarch64.deb
+Size: 2632
+MD5sum: c6fb2d15fe8d72266862d1ad8c40ffaa
+SHA1: 09a6284316accdda45aef6a4428113ab1fd9653a
+SHA256: aae362ee32c2a41e5a2c935df36a4a0baf825027290abc3ef8db56b9a6c34784
+Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
+Description: Development files for libandroid-glob
 
 Package: libandroid-support
 Version: 24-5
@@ -425,6 +508,61 @@ SHA1: 98a48fc100bce298c22ad2308b3cbb6c79db3e35
 SHA256: ab9dc35ad8803b91610d04fd11dc8dd62c733117eb4423b683e3c433f15a9392
 Homepage: https://curl.haxx.se/
 Description: Development files for libcurl
+
+Package: libdb
+Version: 18.1.32-1
+Architecture: aarch64
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 856
+Filename: ./libdb_18.1.32-1_aarch64.deb
+Size: 307348
+MD5sum: 535af18ee4ad9cb7e9a9f7975f418de1
+SHA1: 4be9bcbf85ee8322f58e9e56d49e724edee5ded2
+SHA256: 1010b56425ed8dab7d9ba2c8b2da9da7ad2bc0ab7a6cebe0510f04eeedbcd246
+Homepage: https://www.oracle.com/database/berkeley-db
+Description: The Berkeley DB embedded database system (library)
+
+Package: libdb-dev
+Version: 18.1.32-1
+Architecture: aarch64
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 224
+Depends: libdb (= 18.1.32-1), libdb
+Filename: ./libdb-dev_18.1.32-1_aarch64.deb
+Size: 41168
+MD5sum: 93e2799c3b747d0b6be0b126be0a056d
+SHA1: e6265507a3c0a934b3c9fe8ebca4d999e3b54ba6
+SHA256: 8be3d839f9742e9c818e6524acece27563161f192ae0b2d51fdd5b2ca981258c
+Homepage: https://www.oracle.com/database/berkeley-db
+Description: Development files for libdb
+
+Package: libedit
+Version: 20190324-3.1-0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 208
+Depends: libandroid-support, ncurses
+Filename: ./libedit_20190324-3.1-0_aarch64.deb
+Size: 55588
+MD5sum: d8028dd10cf25405f573fc4657139cc8
+SHA1: c75305c611038d6c7f17b692487e2566e78a8539
+SHA256: 2fb1876a9386598ff237902117b7f238f93e60e11b5d77ba07367e67f498eaa2
+Homepage: https://thrysoee.dk/editline/
+Description: Library providing line editing, history, and tokenization functions
+
+Package: libedit-dev
+Version: 20190324-3.1-0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Depends: libedit (= 20190324-3.1-0), libedit
+Filename: ./libedit-dev_20190324-3.1-0_aarch64.deb
+Size: 13232
+MD5sum: 8559d250fb9cd4cd05e2d3d9a43065b6
+SHA1: d9e9cac8405553c847017460b28a30269d00808d
+SHA256: f436fcaa98c4f2c7b2ad9d362dcc2b8ab9fd464ee712499fb6d38c6e73bbafdc
+Homepage: https://thrysoee.dk/editline/
+Description: Development files for libedit
 
 Package: libevent
 Version: 2.1.8-1
@@ -1081,6 +1219,34 @@ SHA1: e73920eda8e497f12092adbd7f2ecf0c0e386199
 SHA256: 65776ee8354bacabbe3cf49cdd0bbae944c1fcde4c63686526aeb87c399d8ba7
 Homepage: https://github.com/michalbednarski/TermuxAm
 Description: Android Oreo-compatible am command reimplementation
+
+Package: termux-auth
+Version: 1.1
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Installed-Size: 56
+Depends: openssl
+Filename: ./termux-auth_1.1_aarch64.deb
+Size: 3890
+MD5sum: d2d7398f8f743f8b32dfda5f6da05a75
+SHA1: c60900bbc9631e6e8f76a7cfb3316f4078f0ce33
+SHA256: 58cdf5b0331de5d22089ca453e0184450d00a44d973293045a90bca8bdbd3a2c
+Homepage: https://github.com/termux/termux-auth
+Description: Password authentication library and utility for Termux
+
+Package: termux-auth-dev
+Version: 1.1
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Installed-Size: 32
+Depends: termux-auth (= 1.1), termux-auth
+Filename: ./termux-auth-dev_1.1_aarch64.deb
+Size: 1210
+MD5sum: 186cb1b5c32581fd08f48229ba2394a5
+SHA1: 772967427a349f85a0e306f3fbef34985e952810
+SHA256: 2204c41fe6312fcb64fc5a864fad68c79c69892d86ad4425bb3403e594c8e47f
+Homepage: https://github.com/termux/termux-auth
+Description: Development files for termux-auth
 
 Package: termux-exec
 Version: 0.4
